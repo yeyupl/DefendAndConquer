@@ -1,0 +1,1516 @@
+com.adwo.adsdk.AdwoAdView:
+    111:127:public AdwoAdView(android.content.Context,java.lang.String,int,int,boolean,int,boolean)
+com.adwo.adsdk.FSAd:
+    21:37:protected static com.adwo.adsdk.FSAd a(byte[])
+com.adwo.adsdk.FSAdUtil:
+    private android.telephony.TelephonyManager a
+    private java.lang.String f
+    private com.adwo.adsdk.SplashAdListener z
+    private byte A
+    80:81:public final void setSplashAdListener(com.adwo.adsdk.SplashAdListener)
+    94:94:public static com.adwo.adsdk.FSAdUtil getInstance()
+    98:110:public final void loadAd(android.app.Activity,java.lang.String,boolean)
+    347:364:private byte[] b()
+    433:462:private byte[] a(android.content.Context)
+    475:601:protected static synchronized com.adwo.adsdk.FSAd a(android.content.Context,byte,byte)
+    726:736:private void c()
+    1325:1337:private java.lang.String b(android.content.Context)
+    77:77:static com.adwo.adsdk.SplashAdListener a(com.adwo.adsdk.FSAdUtil)
+com.adwo.adsdk.R:
+    45:208:protected static com.adwo.adsdk.FSAd a(byte[])
+com.adwo.adsdk.SplashAdListener
+com.adwo.adsdk.U
+com.adwo.adsdk.m:
+    87:88:protected static void a(boolean)
+com.airpush.android.Airpush:
+    private boolean showDialog
+    private static boolean showInterstitialtestAd
+    private static java.lang.String size
+    private long iconNextMessageCheckTime
+    private android.content.Intent addIntent1
+    private static com.airpush.android.Airpush a
+    264:266:private void deleteShortcut()
+    554:559:private long getNextMessageCheck(org.json.JSONObject)
+    688:694:public static void enableSdk(android.content.Context)
+    697:703:public static void disableSdk(android.content.Context)
+com.airpush.android.Base64:
+    49:49:public static java.lang.String encodeLines(byte[])
+    61:72:public static java.lang.String encodeLines(byte[],int,int,int,java.lang.String)
+    91:91:public static char[] encode(byte[],int)
+    130:130:public static java.lang.String decodeString(java.lang.String)
+    141:147:public static byte[] decodeLines(java.lang.String)
+    157:157:public static byte[] decode(java.lang.String)
+    167:167:public static byte[] decode(char[])
+    179:205:public static byte[] decode(char[],int,int)
+com.airpush.android.Constants:
+    private static boolean testMode
+    protected static final java.lang.String apiUrl
+    protected static final boolean DebugMode
+    protected static final boolean VibrateMode
+    protected static final boolean sendLog
+    41:47:protected static void setUrl(boolean)
+com.airpush.android.HttpPostData:
+    private static org.apache.http.client.methods.HttpPost post
+    private static org.apache.http.HttpEntity response
+    private org.apache.http.message.BasicHttpResponse httpResponse2
+    private static final java.lang.String HEADER_ACCEPT_ENCODING
+    private static final java.lang.String ENCODING_GZIP
+com.airpush.android.HttpPostData$Prefs
+com.airpush.android.PushAds:
+    private java.lang.String imageUrl
+    private java.lang.String moreInfoClickUrl
+    private int buttonMargin
+    private java.lang.String adSize
+    private java.lang.String moreButtonText
+    private java.lang.String skipButtonText
+    private int textSize
+    private android.graphics.drawable.BitmapDrawable bd
+    private float imagePadding
+    private float btn1Padding
+    private float btn2Padding
+    private int btn1Height
+    private int btn2Height
+    341:342:public void show(android.webkit.WebView)
+    429:601:private void displayAds()
+com.airpush.android.PushService:
+    private static final int NOTIFICATION_ID
+    private android.content.Intent deliveryIntent
+    private android.app.PendingIntent pendingDeliveryIntent
+    private android.app.AlarmManager alarmDeliveryMgr
+    private int id
+    private int hour
+    private int minute
+    private java.lang.String countryCode
+    1072:1078:private java.lang.String getCountryCode(org.json.JSONObject)
+    1160:1166:private java.lang.String getMessageDetails(org.json.JSONObject)
+com.kuguo.pushads.q
+com.mobclick.android.MobclickAgent:
+    private static final java.lang.String b
+    private static final java.lang.String c
+    private static final java.lang.String d
+    private static final long e
+    private static final int f
+    public static org.json.JSONObject getUpdateInfo()
+    public static void setUpdateOnlyWifi(boolean)
+    public static void setFeedbackListener(com.mobclick.android.UmengFeedbackListener)
+    public static void setUpdateListener(com.mobclick.android.UmengUpdateListener)
+    public static void openActivityDurationTrack(boolean)
+    public static void setDefaultReportPolicy(android.content.Context,int)
+    public static void flush(android.content.Context)
+    public static void initFeedback(android.content.Context)
+    public static void openFeedbackActivity(android.content.Context)
+    public static void onEvent(android.content.Context,java.lang.String)
+    public static void onEvent(android.content.Context,java.lang.String,int)
+    public static void enterPage(android.content.Context,java.lang.String)
+    private synchronized void e(android.content.Context)
+    private void f(android.content.Context)
+    public static void setOpenGLContext(javax.microedition.khronos.opengles.GL10)
+    private static void a(android.content.Context,int)
+com.mobclick.android.ReportPolicy
+com.mobclick.android.UmengFeedback:
+    public static void a(android.content.Context)
+    public static void a(com.mobclick.android.e)
+com.mobclick.android.a:
+    public boolean a()
+    public void a(java.lang.String)
+    public void b(java.lang.String)
+    public void a(int)
+    public void a(boolean)
+com.mobclick.android.m
+com.mobclick.android.n:
+    public static final java.lang.String c
+    public static final java.lang.String d
+    public static final java.lang.String e
+    public static final java.lang.String f
+    public static final java.lang.String g
+    public static final java.lang.String h
+    public static final java.lang.String i
+    public static final java.lang.String m
+    public static final java.lang.String n
+    public static final java.lang.String o
+    public static final java.lang.String p
+    public static java.lang.String a()
+    public static java.lang.String b()
+    public static java.lang.String c()
+    public static java.lang.String d()
+    public static java.lang.String e()
+    public static java.lang.String f()
+    public static java.lang.String g()
+    public static java.lang.String h()
+    public static java.lang.String i()
+    public static java.lang.String j()
+    public static java.lang.String e(android.content.Context)
+    public static java.lang.String[] k()
+    public static java.lang.String[] l()
+    public static java.lang.String[] m()
+    public static java.lang.String[] n()
+    public static java.lang.String o()
+    public static java.lang.String p()
+    public static java.lang.String q()
+    public static java.lang.String r()
+    public static java.lang.String s()
+    public static java.lang.String t()
+    public static java.lang.String u()
+    public static java.lang.String v()
+    public static java.lang.String w()
+    public static java.lang.String x()
+    public static java.lang.String y()
+    public static java.lang.String z()
+    public static java.util.Date a(java.lang.String)
+    public static int a(java.util.Date,java.util.Date)
+com.mobclick.android.o:
+    public static java.lang.String[] a(javax.microedition.khronos.opengles.GL10)
+    public static java.lang.String a(byte[],int)
+com.mobclick.android.q
+com.mt.airad.AirAD:
+    protected android.os.Handler _$2
+com.mt.airad.IIIlIllllIllIlll:
+    protected long _$3(java.lang.String)
+    protected boolean _$2(java.lang.String)
+com.mt.airad.IIlllIllllIIllll:
+    protected static final java.lang.String _$38
+    protected static final java.lang.String _$37
+    protected static final int _$29
+    protected static final int _$28
+    protected static final int _$27
+    protected static final int _$26
+    protected static final int _$18
+    protected static final int _$17
+    protected static final int _$16
+    protected static final int _$15
+    protected static final int _$14
+    protected static final int _$13
+    protected static final int _$12
+    protected static final int _$11
+    protected static final int _$10
+    protected static final int _$9
+    protected static final int _$8
+    protected static final int _$7
+    protected static final int _$6
+    protected static final int _$5
+    protected static final int _$4
+    protected static final int _$3
+    protected static final int _$2
+    protected static final int _$1
+com.mt.airad.IIllllIlIIIIIIII:
+    protected static byte[] _$2(byte[])
+    private static byte[] _$1(byte[])
+com.mt.airad.IlIIllIlIIIIIIIl
+com.mt.airad.IlIlIlllIIlIIIIl:
+    protected static final int _$12
+    protected static final int _$11
+    protected static final int _$10
+    protected static final int _$9
+    protected static final int _$8
+    protected static final int _$7
+    protected static final int _$6
+    protected static final int _$5
+    protected static final int _$4
+    protected static final int _$3
+com.mt.airad.IllIlIllIIIllIll
+com.mt.airad.lIllIlIlllllllll
+com.mt.airad.lIlllIlllIIIllIl
+com.mt.airad.llIIIlIIIllIIlII
+com.mt.airad.llIlllIIlIlIlIlI
+com.uy.DefendAndConquer.Entity.Army:
+    108:108:public int getAttack()
+    112:113:public void setAttack(int)
+com.uy.DefendAndConquer.Entity.City:
+    262:262:public int getLevel()
+    272:272:public int getMaxLevel()
+    281:281:public int getGoldLose()
+    286:286:public int getGoldInc()
+    291:291:public int getPopulationSpeed()
+com.uy.DefendAndConquer.Entity.MapLevel:
+    47:48:public void setLevel(int)
+com.uy.DefendAndConquer.Entity.WayPath:
+    109:109:public double getDist(com.uy.DefendAndConquer.Entity.Waypoint,com.uy.DefendAndConquer.Entity.Waypoint)
+com.uy.DefendAndConquer.Entity.Waypoint:
+    10:13:public Waypoint(float,float)
+    37:38:public void setBelong(int)
+    41:41:public int getBelong()
+com.uy.DefendAndConquer.GameActivity:
+    private static final int CAMERA_WIDTH
+    private static final int CAMERA_HEIGHT
+com.uy.DefendAndConquer.Global:
+    22:22:public static boolean isChinese(android.content.Context)
+com.uy.DefendAndConquer.LoadingActivity:
+    private static final int CAMERA_WIDTH
+    private static final int CAMERA_HEIGHT
+com.uy.DefendAndConquer.MapActivity:
+    private static final int CAMERA_WIDTH
+    private static final int CAMERA_HEIGHT
+com.uy.DefendAndConquer.MenuActivity:
+    private static final int CAMERA_WIDTH
+    private static final int CAMERA_HEIGHT
+com.uy.DefendAndConquer.Utils.Ads:
+    68:69:public void getWbs()
+com.uy.DefendAndConquer.Utils.Store:
+    23:28:public void set(java.util.Map)
+    31:33:public void set(java.lang.String,java.lang.String)
+    41:43:public void deleteAll()
+    46:48:public void delete(java.lang.String)
+    51:54:public java.lang.String get(java.lang.String)
+    58:61:public java.lang.String get(java.lang.String,java.lang.String)
+com.vpon.adon.android.AdDisplay:
+    public static final java.lang.String vponUrl
+com.vpon.adon.android.AdManager:
+    public static final java.lang.String vponServer
+    542:543:public void remove()
+com.vpon.adon.android.AdView:
+    68:68:public java.lang.String getVersion()
+    105:107:public void refreshAd()
+    143:144:public void pauseAdAutoRefresh()
+    152:155:public void restartAdAutoRefresh()
+    169:170:void performAdManagerErrorRequester(java.lang.String)
+    301:302:public void setLicenseKey(java.lang.String)
+com.vpon.adon.android.AppConfig
+com.vpon.adon.android.entity.Ad:
+    72:72:public int getDistance()
+    76:77:public void setDistance(int)
+com.vpon.adon.android.entity.AdRedirectPack:
+    private static final long serialVersionUID
+    47:47:public java.lang.String getAdId()
+    53:53:public java.lang.String getLicensekey()
+    59:59:public java.lang.String getImei()
+    65:65:public java.lang.Double getLat()
+    71:71:public java.lang.Double getLon()
+    77:77:public java.lang.String getMcc()
+    83:83:public java.lang.String getMnc()
+    89:89:public java.lang.String getLac()
+    95:95:public java.lang.String getCellId()
+com.vpon.adon.android.entity.RespClick:
+    private static final long serialVersionUID
+    private int clickType
+    85:85:public java.lang.String getStrMcc()
+    89:90:public void setStrMcc(java.lang.String)
+    109:109:public int getClickType()
+    113:114:public void setClickType(int)
+com.vpon.adon.android.entity.RespClickList:
+    private static final long serialVersionUID
+    21:22:public void setRespClicks(java.util.List)
+com.vpon.adon.android.entity.Rsp:
+    private int status
+    private int ts
+    8:8:public int getStatus()
+    11:12:public void setStatus(int)
+    14:14:public int getTs()
+    17:18:public void setTs(int)
+com.vpon.adon.android.exception.ServiceUnavailableException:
+    private static final long serialVersionUID
+com.vpon.adon.android.main.R
+com.vpon.adon.android.main.R$attr
+com.vpon.adon.android.main.R$drawable
+com.vpon.adon.android.main.R$id
+com.vpon.adon.android.main.R$layout
+com.vpon.adon.android.main.R$string
+com.vpon.adon.android.main.Rotate3dAnimation
+com.vpon.adon.android.main.Test:
+    53:71:public void adonRotationHoriztion(int,int,com.vpon.adon.android.AdView)
+com.vpon.adon.android.main.Test$2
+com.vpon.adon.android.utils.Base64:
+    150:192:public static final byte[] decode(char[])
+    207:257:public static final byte[] decodeFast(char[])
+    274:314:public static final byte[] encodeToByte(byte[],boolean)
+    326:368:public static final byte[] decode(byte[])
+    384:434:public static final byte[] decodeFast(byte[])
+    523:573:public static final byte[] decodeFast(java.lang.String)
+com.vpon.adon.android.utils.CryptUtils:
+    133:144:public static java.lang.String encTripleDES(java.lang.String,java.lang.String)
+    173:175:public static java.security.PrivateKey getRsaPriKey(byte[])
+    185:187:public static javax.crypto.Cipher getRsaDecryptCipher(java.security.PrivateKey)
+    206:214:public static byte[] decryptData(byte[],javax.crypto.Cipher)
+com.vpon.adon.android.utils.HandlerManager
+com.vpon.adon.android.utils.IOUtils:
+    82:91:public java.io.BufferedInputStream connectHttpServer(java.lang.String)
+    96:110:public android.graphics.Bitmap downloadBitmap(java.lang.String)
+com.vpon.adon.android.utils.LocationUtil:
+    30:31:private void releaseLocationProvider()
+    34:44:public void getLocationPrivider()
+    51:52:public void removeLocationListener(android.location.LocationListener)
+    62:64:public void remove()
+com.vpon.adon.android.utils.PhoneStateUtils:
+    48:51:public static java.lang.String getAndroidId(android.content.Context)
+com.vpon.adon.android.utils.StringUtils:
+    58:58:public static boolean isNotBlank(java.lang.String)
+com.waps.AnimationType:
+    private static void startRotation(float,float,android.view.View)
+com.waps.AppConnect:
+    private void getAlreadyInstalledPackages(android.content.Context)
+    private void FinishApplicationRunnable()
+com.waps.DisplayAd:
+    private android.widget.LinearLayout getAdLinear(android.content.Context,java.lang.String)
+com.waps.OffersWebView:
+    private android.content.SharedPreferences G
+    private android.content.SharedPreferences$Editor J
+    private void showPushDialog()
+    private void showNotifyList(android.content.SharedPreferences)
+    static java.lang.String access$700(com.waps.OffersWebView)
+    static java.lang.String access$800(com.waps.OffersWebView)
+    static android.content.SharedPreferences$Editor access$1000(com.waps.OffersWebView)
+com.waps.y
+com.waps.z
+com.x25.app.Wb:
+    81:92:public void run()
+com.x25.app.Wb$2
+org.anddev.andengine.audio.BaseAudioEntity:
+    41:41:public float getActualLeftVolume()
+    45:45:public float getActualRightVolume()
+    58:58:public float getVolume()
+    63:63:public float getLeftVolume()
+    68:68:public float getRightVolume()
+    73:74:public final void setVolume(float)
+    78:80:public void setVolume(float,float)
+org.anddev.andengine.audio.BaseAudioManager:
+    44:52:public void setMasterVolume(float)
+org.anddev.andengine.audio.IAudioEntity:
+    public abstract void play()
+    public abstract void pause()
+    public abstract void resume()
+    public abstract float getVolume()
+    public abstract void setVolume(float)
+    public abstract float getLeftVolume()
+    public abstract float getRightVolume()
+    public abstract void setVolume(float,float)
+    public abstract void onMasterVolumeChanged(float)
+    public abstract void setLooping(boolean)
+org.anddev.andengine.audio.IAudioManager:
+    public abstract void setMasterVolume(float)
+    public abstract void add(org.anddev.andengine.audio.IAudioEntity)
+    public abstract void releaseAll()
+org.anddev.andengine.audio.music.Music:
+    44:44:public android.media.MediaPlayer getMediaPlayer()
+    68:69:public void resume()
+    88:95:public void setVolume(float,float)
+    99:100:public void onMasterVolumeChanged(float)
+    107:108:public void seekTo(int)
+    111:112:public void setOnCompletionListener(android.media.MediaPlayer$OnCompletionListener)
+org.anddev.andengine.audio.music.MusicFactory:
+    61:69:public static org.anddev.andengine.audio.music.Music createMusicFromFile(org.anddev.andengine.audio.music.MusicManager,java.io.File)
+    86:92:public static org.anddev.andengine.audio.music.Music createMusicFromResource(org.anddev.andengine.audio.music.MusicManager,android.content.Context,int)
+org.anddev.andengine.audio.sound.Sound:
+    41:45:public void setLoopCount(int)
+    48:52:public void setRate(float)
+    84:87:public void resume()
+    91:94:public void pause()
+    103:104:public void setLooping(boolean)
+    108:116:public void setVolume(float,float)
+    120:121:public void onMasterVolumeChanged(float)
+org.anddev.andengine.audio.sound.SoundFactory:
+    58:61:public static org.anddev.andengine.audio.sound.Sound createSoundFromPath(org.anddev.andengine.audio.sound.SoundManager,java.lang.String)
+    72:75:public static org.anddev.andengine.audio.sound.Sound createSoundFromResource(org.anddev.andengine.audio.sound.SoundManager,android.content.Context,int)
+    79:82:public static org.anddev.andengine.audio.sound.Sound createSoundFromFileDescriptor(org.anddev.andengine.audio.sound.SoundManager,java.io.FileDescriptor,long,long)
+org.anddev.andengine.audio.sound.SoundLibrary
+org.anddev.andengine.audio.sound.SoundManager:
+    private static final int MAX_SIMULTANEOUS_STREAMS_DEFAULT
+org.anddev.andengine.collision.BaseCollisionChecker:
+    36:36:public static boolean checkAxisAlignedRectangleCollision(float,float,float,float,float,float,float,float)
+org.anddev.andengine.collision.LineCollisionChecker
+org.anddev.andengine.collision.RectangularShapeCollisionChecker:
+    private static final int RECTANGULARSHAPE_VERTEX_COUNT
+    private static final int LINE_VERTEX_COUNT
+    56:59:public static boolean isVisible(org.anddev.andengine.engine.camera.Camera,org.anddev.andengine.entity.shape.RectangularShape)
+    63:66:public static boolean isVisible(org.anddev.andengine.engine.camera.Camera,org.anddev.andengine.entity.primitive.Line)
+    70:73:public static boolean checkCollision(org.anddev.andengine.entity.shape.RectangularShape,org.anddev.andengine.entity.shape.RectangularShape)
+    77:80:public static boolean checkCollision(org.anddev.andengine.entity.shape.RectangularShape,org.anddev.andengine.entity.primitive.Line)
+    105:118:private static void fillVertices(org.anddev.andengine.engine.camera.Camera,float[])
+org.anddev.andengine.collision.ShapeCollisionChecker:
+    40:57:public static boolean checkCollision(int,float[],int,float[])
+    67:81:private static boolean checkCollisionSub(int,int,float[],float[],int)
+org.anddev.andengine.engine.DoubleSceneSplitScreenEngine
+org.anddev.andengine.engine.Engine:
+    private static final int UPDATEHANDLERS_CAPACITY_DEFAULT
+    private android.os.Vibrator mVibrator
+    private boolean mIsMethodTracing
+    149:149:public boolean isRunning()
+    166:166:public org.anddev.andengine.entity.scene.Scene getScene()
+    182:182:public float getSecondsElapsedTotal()
+    197:197:public int getSurfaceWidth()
+    201:201:public int getSurfaceHeight()
+    205:205:public org.anddev.andengine.input.touch.controller.ITouchController getTouchController()
+    215:215:public org.anddev.andengine.sensor.accelerometer.AccelerometerData getAccelerometerData()
+    219:219:public org.anddev.andengine.sensor.orientation.OrientationData getOrientationData()
+    247:248:public void clearUpdateHandlers()
+    251:252:public void registerUpdateHandler(org.anddev.andengine.engine.handler.IUpdateHandler)
+    255:256:public void unregisterUpdateHandler(org.anddev.andengine.engine.handler.IUpdateHandler)
+    259:259:public boolean isMethodTracing()
+    263:267:public void startMethodTracing(java.lang.String)
+    270:274:public void stopMethodTracing()
+    533:534:public boolean enableVibrator(android.content.Context)
+    538:543:public void vibrate(long)
+    546:551:public void vibrate(long[],int)
+    554:562:public void enableLocationSensor(android.content.Context,org.anddev.andengine.sensor.location.ILocationListener,org.anddev.andengine.sensor.location.LocationSensorOptions)
+    565:567:public void disableLocationSensor(android.content.Context)
+    573:573:public boolean enableAccelerometerSensor(android.content.Context,org.anddev.andengine.sensor.accelerometer.IAccelerometerListener)
+    580:594:public boolean enableAccelerometerSensor(android.content.Context,org.anddev.andengine.sensor.accelerometer.IAccelerometerListener,org.anddev.andengine.sensor.accelerometer.AccelerometerSensorOptions)
+    603:608:public boolean disableAccelerometerSensor(android.content.Context)
+    616:616:public boolean enableOrientationSensor(android.content.Context,org.anddev.andengine.sensor.orientation.IOrientationListener)
+    623:638:public boolean enableOrientationSensor(android.content.Context,org.anddev.andengine.sensor.orientation.IOrientationListener,org.anddev.andengine.sensor.orientation.OrientationSensorOptions)
+    647:653:public boolean disableOrientationSensor(android.content.Context)
+    658:658:private boolean isSensorSupported(android.hardware.SensorManager,int)
+    662:664:private void registerSelfAsSensorListener(android.hardware.SensorManager,int,org.anddev.andengine.sensor.SensorDelay)
+    667:669:private void unregisterSelfAsSensorListener(android.hardware.SensorManager,int)
+org.anddev.andengine.engine.FixedStepEngine
+org.anddev.andengine.engine.LimitedFPSEngine
+org.anddev.andengine.engine.SingleSceneSplitScreenEngine
+org.anddev.andengine.engine.camera.BoundCamera
+org.anddev.andengine.engine.camera.Camera:
+    88:88:public float getNearZClippingPlane()
+    92:92:public float getFarZClippingPlane()
+    96:97:public void setNearZClippingPlane(float)
+    100:101:public void setFarZClippingPlane(float)
+    104:106:public void setZClippingPlanes(float,float)
+    109:109:public float getWidth()
+    113:113:public float getHeight()
+    145:146:public void offsetCenter(float,float)
+    153:155:public void setHUD(org.anddev.andengine.engine.camera.hud.HUD)
+    162:163:public void setChaseEntity(org.anddev.andengine.entity.IEntity)
+    166:166:public float getRotation()
+    170:171:public void setRotation(float)
+    174:174:public float getCameraSceneRotation()
+    178:179:public void setCameraSceneRotation(float)
+    182:182:public int getSurfaceX()
+    186:186:public int getSurfaceY()
+    190:190:public int getSurfaceWidth()
+    194:194:public int getSurfaceHeight()
+    205:205:public boolean isRotated()
+    224:224:public void reset()
+    244:244:public boolean isLineVisible(org.anddev.andengine.entity.primitive.Line)
+    248:248:public boolean isRectangularShapeVisible(org.anddev.andengine.entity.shape.RectangularShape)
+org.anddev.andengine.engine.camera.CameraFactory
+org.anddev.andengine.engine.camera.SmoothCamera
+org.anddev.andengine.engine.camera.ZoomCamera
+org.anddev.andengine.engine.camera.hud.controls.AnalogOnScreenControl
+org.anddev.andengine.engine.camera.hud.controls.AnalogOnScreenControl$IAnalogOnScreenControlListener
+org.anddev.andengine.engine.camera.hud.controls.BaseOnScreenControl
+org.anddev.andengine.engine.camera.hud.controls.BaseOnScreenControl$1
+org.anddev.andengine.engine.camera.hud.controls.BaseOnScreenControl$2
+org.anddev.andengine.engine.camera.hud.controls.BaseOnScreenControl$IOnScreenControlListener
+org.anddev.andengine.engine.camera.hud.controls.DigitalOnScreenControl
+org.anddev.andengine.engine.handler.BaseEntityUpdateHandler
+org.anddev.andengine.engine.handler.IUpdateHandler:
+    public abstract void reset()
+org.anddev.andengine.engine.handler.IUpdateHandler$IUpdateHandlerMatcher
+org.anddev.andengine.engine.handler.UpdateHandlerList:
+    private static final long serialVersionUID
+    53:57:public void reset()
+org.anddev.andengine.engine.handler.collision.CollisionHandler
+org.anddev.andengine.engine.handler.collision.ICollisionCallback
+org.anddev.andengine.engine.handler.physics.PhysicsHandler
+org.anddev.andengine.engine.handler.runnable.RunnableHandler:
+    49:50:public void reset()
+org.anddev.andengine.engine.handler.timer.TimerHandler:
+    32:33:public TimerHandler(float,org.anddev.andengine.engine.handler.timer.ITimerCallback)
+    46:46:public boolean isAutoReset()
+    50:51:public void setAutoReset(boolean)
+    54:55:public void setTimerSeconds(float)
+    58:58:public float getTimerSeconds()
+    62:62:public float getTimerSecondsElapsed()
+    66:66:public boolean isTimerCallbackTriggered()
+    70:71:public void setTimerCallbackTriggered(boolean)
+    98:100:public void reset()
+org.anddev.andengine.engine.options.EngineOptions:
+    82:83:public void setUpdateThreadPriority(int)
+    108:109:public org.anddev.andengine.engine.options.EngineOptions setWakeLockOptions(org.anddev.andengine.engine.options.WakeLockOptions)
+org.anddev.andengine.engine.options.RenderOptions:
+    38:38:public org.anddev.andengine.engine.options.RenderOptions enableExtensionVertexBufferObjects()
+    42:42:public org.anddev.andengine.engine.options.RenderOptions disableExtensionVertexBufferObjects()
+    46:47:public org.anddev.andengine.engine.options.RenderOptions setDisableExtensionVertexBufferObjects(boolean)
+    54:54:public boolean isDisableExtensionDrawTexture()
+    58:58:public org.anddev.andengine.engine.options.RenderOptions enableExtensionDrawTexture()
+    62:62:public org.anddev.andengine.engine.options.RenderOptions disableExtensionDrawTexture()
+    66:67:public org.anddev.andengine.engine.options.RenderOptions setDisableExtensionDrawTexture(boolean)
+org.anddev.andengine.engine.options.TouchOptions:
+    30:30:public org.anddev.andengine.engine.options.TouchOptions enableRunOnUpdateThread()
+    34:34:public org.anddev.andengine.engine.options.TouchOptions disableRunOnUpdateThread()
+    38:39:public org.anddev.andengine.engine.options.TouchOptions setRunOnUpdateThread(boolean)
+org.anddev.andengine.engine.options.resolutionpolicy.FixedResolutionPolicy
+org.anddev.andengine.engine.options.resolutionpolicy.RatioResolutionPolicy
+org.anddev.andengine.engine.options.resolutionpolicy.RelativeResolutionPolicy
+org.anddev.andengine.entity.Entity:
+    private static final int CHILDREN_CAPACITY_DEFAULT
+    private static final int ENTITYMODIFIERS_CAPACITY_DEFAULT
+    private static final int UPDATEHANDLERS_CAPACITY_DEFAULT
+    private java.lang.Object mUserData
+    134:134:public boolean isChildrenVisible()
+    139:140:public void setChildrenVisible(boolean)
+    144:144:public boolean isIgnoreUpdate()
+    149:150:public void setIgnoreUpdate(boolean)
+    154:154:public boolean isChildrenIgnoreUpdate()
+    159:160:public void setChildrenIgnoreUpdate(boolean)
+    169:169:public org.anddev.andengine.entity.IEntity getParent()
+    179:179:public int getZIndex()
+    184:185:public void setZIndex(int)
+    199:199:public float getInitialX()
+    204:204:public float getInitialY()
+    209:210:public void setPosition(org.anddev.andengine.entity.IEntity)
+    222:226:public void setInitialPosition()
+    230:230:public float getRotation()
+    235:235:public boolean isRotated()
+    247:247:public float getRotationCenterX()
+    252:252:public float getRotationCenterY()
+    257:260:public void setRotationCenterX(float)
+    264:267:public void setRotationCenterY(float)
+    271:275:public void setRotationCenter(float,float)
+    279:279:public boolean isScaled()
+    284:284:public float getScaleX()
+    289:289:public float getScaleY()
+    294:297:public void setScaleX(float)
+    301:304:public void setScaleY(float)
+    316:320:public void setScale(float,float)
+    324:324:public float getScaleCenterX()
+    329:329:public float getScaleCenterY()
+    334:337:public void setScaleCenterX(float)
+    341:344:public void setScaleCenterY(float)
+    348:352:public void setScaleCenter(float,float)
+    356:356:public float getRed()
+    361:361:public float getGreen()
+    366:366:public float getBlue()
+    371:371:public float getAlpha()
+    379:380:public void setAlpha(float)
+    402:406:public void setColor(float,float,float,float)
+    410:413:public int getChildCount()
+    418:421:public org.anddev.andengine.entity.IEntity getChild(int)
+    426:429:public int getChildIndex(org.anddev.andengine.entity.IEntity)
+    434:442:public boolean setChildIndex(org.anddev.andengine.entity.IEntity,int)
+    448:451:public org.anddev.andengine.entity.IEntity getFirstChild()
+    456:459:public org.anddev.andengine.entity.IEntity getLastChild()
+    464:468:public boolean detachSelf()
+    474:478:public void detachChildren()
+    513:516:public org.anddev.andengine.entity.IEntity findChild(org.anddev.andengine.entity.IEntity$IEntityMatcher)
+    521:521:public boolean swapChildren(org.anddev.andengine.entity.IEntity,org.anddev.andengine.entity.IEntity)
+    527:530:public boolean swapChildren(int,int)
+    536:540:public void sortChildren()
+    544:548:public void sortChildren(java.util.Comparator)
+    560:563:public org.anddev.andengine.entity.IEntity detachChild(org.anddev.andengine.entity.IEntity$IEntityMatcher)
+    568:571:public boolean detachChildren(org.anddev.andengine.entity.IEntity$IEntityMatcher)
+    576:580:public void callOnChildren(org.anddev.andengine.entity.IEntity$IEntityCallable)
+    584:588:public void callOnChildren(org.anddev.andengine.entity.IEntity$IEntityMatcher,org.anddev.andengine.entity.IEntity$IEntityCallable)
+    600:603:public boolean unregisterUpdateHandler(org.anddev.andengine.engine.handler.IUpdateHandler)
+    608:611:public boolean unregisterUpdateHandlers(org.anddev.andengine.engine.handler.IUpdateHandler$IUpdateHandlerMatcher)
+    632:635:public boolean unregisterEntityModifier(org.anddev.andengine.entity.modifier.IEntityModifier)
+    640:643:public boolean unregisterEntityModifiers(org.anddev.andengine.entity.modifier.IEntityModifier$IEntityModifierMatcher)
+    648:652:public void clearEntityModifiers()
+    794:794:public float[] convertLocalToSceneCoordinates(float[])
+    802:807:public float[] convertLocalToSceneCoordinates(float[],float[])
+    836:836:public float[] convertSceneToLocalCoordinates(float[])
+    844:849:public float[] convertSceneToLocalCoordinates(float[],float[])
+    864:864:public java.lang.Object getUserData()
+    869:870:public void setUserData(java.lang.Object)
+    888:914:public void reset()
+org.anddev.andengine.entity.IEntity:
+    public abstract boolean isVisible()
+    public abstract void setVisible(boolean)
+    public abstract boolean isIgnoreUpdate()
+    public abstract void setIgnoreUpdate(boolean)
+    public abstract boolean isChildrenVisible()
+    public abstract void setChildrenVisible(boolean)
+    public abstract boolean isChildrenIgnoreUpdate()
+    public abstract void setChildrenIgnoreUpdate(boolean)
+    public abstract int getZIndex()
+    public abstract void setZIndex(int)
+    public abstract org.anddev.andengine.entity.IEntity getParent()
+    public abstract float getX()
+    public abstract float getY()
+    public abstract float getInitialX()
+    public abstract float getInitialY()
+    public abstract void setInitialPosition()
+    public abstract void setPosition(org.anddev.andengine.entity.IEntity)
+    public abstract boolean isRotated()
+    public abstract float getRotation()
+    public abstract void setRotation(float)
+    public abstract float getRotationCenterX()
+    public abstract float getRotationCenterY()
+    public abstract void setRotationCenterX(float)
+    public abstract void setRotationCenterY(float)
+    public abstract void setRotationCenter(float,float)
+    public abstract boolean isScaled()
+    public abstract float getScaleX()
+    public abstract float getScaleY()
+    public abstract void setScaleX(float)
+    public abstract void setScaleY(float)
+    public abstract void setScale(float)
+    public abstract void setScale(float,float)
+    public abstract float getScaleCenterX()
+    public abstract float getScaleCenterY()
+    public abstract void setScaleCenterX(float)
+    public abstract void setScaleCenterY(float)
+    public abstract void setScaleCenter(float,float)
+    public abstract float getRed()
+    public abstract float getGreen()
+    public abstract float getBlue()
+    public abstract float getAlpha()
+    public abstract void setAlpha(float)
+    public abstract void setColor(float,float,float)
+    public abstract void setColor(float,float,float,float)
+    public abstract float[] convertLocalToSceneCoordinates(float,float)
+    public abstract float[] convertLocalToSceneCoordinates(float,float,float[])
+    public abstract float[] convertLocalToSceneCoordinates(float[])
+    public abstract float[] convertLocalToSceneCoordinates(float[],float[])
+    public abstract float[] convertSceneToLocalCoordinates(float,float)
+    public abstract float[] convertSceneToLocalCoordinates(float,float,float[])
+    public abstract float[] convertSceneToLocalCoordinates(float[])
+    public abstract float[] convertSceneToLocalCoordinates(float[],float[])
+    public abstract int getChildCount()
+    public abstract void attachChild(org.anddev.andengine.entity.IEntity)
+    public abstract boolean attachChild(org.anddev.andengine.entity.IEntity,int)
+    public abstract org.anddev.andengine.entity.IEntity getChild(int)
+    public abstract org.anddev.andengine.entity.IEntity getFirstChild()
+    public abstract org.anddev.andengine.entity.IEntity getLastChild()
+    public abstract int getChildIndex(org.anddev.andengine.entity.IEntity)
+    public abstract boolean setChildIndex(org.anddev.andengine.entity.IEntity,int)
+    public abstract org.anddev.andengine.entity.IEntity findChild(org.anddev.andengine.entity.IEntity$IEntityMatcher)
+    public abstract boolean swapChildren(int,int)
+    public abstract boolean swapChildren(org.anddev.andengine.entity.IEntity,org.anddev.andengine.entity.IEntity)
+    public abstract void sortChildren()
+    public abstract void sortChildren(java.util.Comparator)
+    public abstract boolean detachSelf()
+    public abstract boolean detachChild(org.anddev.andengine.entity.IEntity)
+    public abstract org.anddev.andengine.entity.IEntity detachChild(org.anddev.andengine.entity.IEntity$IEntityMatcher)
+    public abstract boolean detachChildren(org.anddev.andengine.entity.IEntity$IEntityMatcher)
+    public abstract void detachChildren()
+    public abstract void callOnChildren(org.anddev.andengine.entity.IEntity$IEntityCallable)
+    public abstract void callOnChildren(org.anddev.andengine.entity.IEntity$IEntityMatcher,org.anddev.andengine.entity.IEntity$IEntityCallable)
+    public abstract void registerUpdateHandler(org.anddev.andengine.engine.handler.IUpdateHandler)
+    public abstract boolean unregisterUpdateHandler(org.anddev.andengine.engine.handler.IUpdateHandler)
+    public abstract boolean unregisterUpdateHandlers(org.anddev.andengine.engine.handler.IUpdateHandler$IUpdateHandlerMatcher)
+    public abstract void clearUpdateHandlers()
+    public abstract void registerEntityModifier(org.anddev.andengine.entity.modifier.IEntityModifier)
+    public abstract boolean unregisterEntityModifier(org.anddev.andengine.entity.modifier.IEntityModifier)
+    public abstract boolean unregisterEntityModifiers(org.anddev.andengine.entity.modifier.IEntityModifier$IEntityModifierMatcher)
+    public abstract void clearEntityModifiers()
+    public abstract void setUserData(java.lang.Object)
+    public abstract java.lang.Object getUserData()
+org.anddev.andengine.entity.IEntity$IEntityCallable
+org.anddev.andengine.entity.IEntity$IEntityMatcher
+org.anddev.andengine.entity.ZIndexSorter
+org.anddev.andengine.entity.ZIndexSorter$1
+org.anddev.andengine.entity.layer.tiled.tmx.TMXLayer
+org.anddev.andengine.entity.layer.tiled.tmx.TMXLayerProperty
+org.anddev.andengine.entity.layer.tiled.tmx.TMXLoader
+org.anddev.andengine.entity.layer.tiled.tmx.TMXLoader$ITMXTilePropertiesListener
+org.anddev.andengine.entity.layer.tiled.tmx.TMXObject
+org.anddev.andengine.entity.layer.tiled.tmx.TMXObjectGroup
+org.anddev.andengine.entity.layer.tiled.tmx.TMXObjectGroupProperty
+org.anddev.andengine.entity.layer.tiled.tmx.TMXObjectProperty
+org.anddev.andengine.entity.layer.tiled.tmx.TMXParser
+org.anddev.andengine.entity.layer.tiled.tmx.TMXProperties
+org.anddev.andengine.entity.layer.tiled.tmx.TMXProperty
+org.anddev.andengine.entity.layer.tiled.tmx.TMXTile
+org.anddev.andengine.entity.layer.tiled.tmx.TMXTileProperty
+org.anddev.andengine.entity.layer.tiled.tmx.TMXTileSet
+org.anddev.andengine.entity.layer.tiled.tmx.TMXTiledMap
+org.anddev.andengine.entity.layer.tiled.tmx.TMXTiledMapProperty
+org.anddev.andengine.entity.layer.tiled.tmx.TSXLoader
+org.anddev.andengine.entity.layer.tiled.tmx.TSXParser
+org.anddev.andengine.entity.layer.tiled.tmx.util.constants.TMXConstants
+org.anddev.andengine.entity.layer.tiled.tmx.util.exception.TMXException
+org.anddev.andengine.entity.layer.tiled.tmx.util.exception.TMXLoadException
+org.anddev.andengine.entity.layer.tiled.tmx.util.exception.TMXParseException
+org.anddev.andengine.entity.layer.tiled.tmx.util.exception.TSXLoadException
+org.anddev.andengine.entity.layer.tiled.tmx.util.exception.TSXParseException
+org.anddev.andengine.entity.modifier.AlphaModifier
+org.anddev.andengine.entity.modifier.ColorModifier
+org.anddev.andengine.entity.modifier.CubicBezierMoveModifier
+org.anddev.andengine.entity.modifier.DelayModifier
+org.anddev.andengine.entity.modifier.DoubleValueSpanEntityModifier:
+    28:29:public DoubleValueSpanEntityModifier(float,float,float,float,float)
+    32:33:public DoubleValueSpanEntityModifier(float,float,float,float,float,org.anddev.andengine.util.modifier.ease.IEaseFunction)
+    36:37:public DoubleValueSpanEntityModifier(float,float,float,float,float,org.anddev.andengine.entity.modifier.IEntityModifier$IEntityModifierListener)
+org.anddev.andengine.entity.modifier.DurationEntityModifier
+org.anddev.andengine.entity.modifier.EntityModifierList:
+    private static final long serialVersionUID
+    29:30:public EntityModifierList(org.anddev.andengine.entity.IEntity)
+org.anddev.andengine.entity.modifier.FadeInModifier
+org.anddev.andengine.entity.modifier.FadeOutModifier
+org.anddev.andengine.entity.modifier.IEntityModifier:
+    public abstract org.anddev.andengine.entity.modifier.IEntityModifier clone()
+org.anddev.andengine.entity.modifier.IEntityModifier$IEntityModifierMatcher
+org.anddev.andengine.entity.modifier.LoopEntityModifier:
+    27:28:public LoopEntityModifier(org.anddev.andengine.entity.modifier.IEntityModifier)
+    35:36:public LoopEntityModifier(org.anddev.andengine.entity.modifier.IEntityModifier,int,org.anddev.andengine.entity.modifier.LoopEntityModifier$ILoopEntityModifierListener)
+    39:40:public LoopEntityModifier(org.anddev.andengine.entity.modifier.IEntityModifier,int,org.anddev.andengine.entity.modifier.IEntityModifier$IEntityModifierListener)
+    43:44:public LoopEntityModifier(org.anddev.andengine.entity.modifier.IEntityModifier$IEntityModifierListener,int,org.anddev.andengine.entity.modifier.LoopEntityModifier$ILoopEntityModifierListener,org.anddev.andengine.entity.modifier.IEntityModifier)
+    1:1:public org.anddev.andengine.entity.modifier.IEntityModifier clone()
+org.anddev.andengine.entity.modifier.LoopEntityModifier$ILoopEntityModifierListener
+org.anddev.andengine.entity.modifier.MoveModifier:
+    27:28:public MoveModifier(float,float,float,float,float)
+    31:32:public MoveModifier(float,float,float,float,float,org.anddev.andengine.util.modifier.ease.IEaseFunction)
+    35:36:public MoveModifier(float,float,float,float,float,org.anddev.andengine.entity.modifier.IEntityModifier$IEntityModifierListener)
+    1:1:public org.anddev.andengine.entity.modifier.IEntityModifier clone()
+org.anddev.andengine.entity.modifier.MoveXModifier
+org.anddev.andengine.entity.modifier.MoveYModifier
+org.anddev.andengine.entity.modifier.ParallelEntityModifier
+org.anddev.andengine.entity.modifier.PathModifier:
+    38:39:public PathModifier(float,org.anddev.andengine.entity.modifier.PathModifier$Path)
+    42:43:public PathModifier(float,org.anddev.andengine.entity.modifier.PathModifier$Path,org.anddev.andengine.util.modifier.ease.IEaseFunction)
+    46:47:public PathModifier(float,org.anddev.andengine.entity.modifier.PathModifier$Path,org.anddev.andengine.entity.modifier.IEntityModifier$IEntityModifierListener)
+    50:51:public PathModifier(float,org.anddev.andengine.entity.modifier.PathModifier$Path,org.anddev.andengine.entity.modifier.PathModifier$IPathModifierListener)
+    54:55:public PathModifier(float,org.anddev.andengine.entity.modifier.PathModifier$Path,org.anddev.andengine.entity.modifier.PathModifier$IPathModifierListener,org.anddev.andengine.util.modifier.ease.IEaseFunction)
+    58:59:public PathModifier(float,org.anddev.andengine.entity.modifier.PathModifier$Path,org.anddev.andengine.entity.modifier.IEntityModifier$IEntityModifierListener,org.anddev.andengine.util.modifier.ease.IEaseFunction)
+    62:63:public PathModifier(float,org.anddev.andengine.entity.modifier.PathModifier$Path,org.anddev.andengine.entity.modifier.IEntityModifier$IEntityModifierListener,org.anddev.andengine.entity.modifier.PathModifier$IPathModifierListener)
+    143:143:public org.anddev.andengine.entity.modifier.PathModifier$Path getPath()
+    157:157:public float getSecondsElapsed()
+    166:166:public org.anddev.andengine.entity.modifier.PathModifier$IPathModifierListener getPathModifierListener()
+    170:171:public void setPathModifierListener(org.anddev.andengine.entity.modifier.PathModifier$IPathModifierListener)
+    1:1:public org.anddev.andengine.entity.modifier.IEntityModifier clone()
+org.anddev.andengine.entity.modifier.PathModifier$Path:
+    234:244:public PathModifier$Path(float[],float[])
+org.anddev.andengine.entity.modifier.QuadraticBezierMoveModifier
+org.anddev.andengine.entity.modifier.RotationAtModifier
+org.anddev.andengine.entity.modifier.RotationByModifier
+org.anddev.andengine.entity.modifier.RotationModifier
+org.anddev.andengine.entity.modifier.ScaleAtModifier
+org.anddev.andengine.entity.modifier.ScaleModifier
+org.anddev.andengine.entity.modifier.SequenceEntityModifier
+org.anddev.andengine.entity.modifier.SequenceEntityModifier$ISubSequenceShapeModifierListener
+org.anddev.andengine.entity.modifier.SingleValueChangeEntityModifier
+org.anddev.andengine.entity.modifier.SingleValueSpanEntityModifier
+org.anddev.andengine.entity.modifier.TripleValueSpanEntityModifier
+org.anddev.andengine.entity.particle.Particle
+org.anddev.andengine.entity.particle.ParticleSystem
+org.anddev.andengine.entity.particle.emitter.BaseCircleParticleEmitter
+org.anddev.andengine.entity.particle.emitter.BaseParticleEmitter
+org.anddev.andengine.entity.particle.emitter.BaseRectangleParticleEmitter
+org.anddev.andengine.entity.particle.emitter.CircleOutlineParticleEmitter
+org.anddev.andengine.entity.particle.emitter.CircleParticleEmitter
+org.anddev.andengine.entity.particle.emitter.IParticleEmitter
+org.anddev.andengine.entity.particle.emitter.PointParticleEmitter
+org.anddev.andengine.entity.particle.emitter.RectangleOutlineParticleEmitter
+org.anddev.andengine.entity.particle.emitter.RectangleParticleEmitter
+org.anddev.andengine.entity.particle.initializer.AccelerationInitializer
+org.anddev.andengine.entity.particle.initializer.AlphaInitializer
+org.anddev.andengine.entity.particle.initializer.BaseDoubleValueInitializer
+org.anddev.andengine.entity.particle.initializer.BaseSingleValueInitializer
+org.anddev.andengine.entity.particle.initializer.BaseTripleValueInitializer
+org.anddev.andengine.entity.particle.initializer.ColorInitializer
+org.anddev.andengine.entity.particle.initializer.GravityInitializer
+org.anddev.andengine.entity.particle.initializer.IParticleInitializer
+org.anddev.andengine.entity.particle.initializer.RotationInitializer
+org.anddev.andengine.entity.particle.initializer.VelocityInitializer
+org.anddev.andengine.entity.particle.modifier.AlphaModifier
+org.anddev.andengine.entity.particle.modifier.BaseDoubleValueSpanModifier
+org.anddev.andengine.entity.particle.modifier.BaseSingleValueSpanModifier
+org.anddev.andengine.entity.particle.modifier.BaseTripleValueSpanModifier
+org.anddev.andengine.entity.particle.modifier.ColorModifier
+org.anddev.andengine.entity.particle.modifier.ExpireModifier
+org.anddev.andengine.entity.particle.modifier.IParticleModifier
+org.anddev.andengine.entity.particle.modifier.OffCameraExpireModifier
+org.anddev.andengine.entity.particle.modifier.RotationModifier
+org.anddev.andengine.entity.particle.modifier.ScaleModifier
+org.anddev.andengine.entity.primitive.BaseRectangle:
+    34:35:public BaseRectangle(float,float,float,float,org.anddev.andengine.opengl.vertex.RectangleVertexBuffer)
+org.anddev.andengine.entity.primitive.Line
+org.anddev.andengine.entity.primitive.Rectangle
+org.anddev.andengine.entity.scene.CameraScene:
+    47:47:public org.anddev.andengine.engine.camera.Camera getCamera()
+    51:52:public void setCamera(org.anddev.andengine.engine.camera.Camera)
+    112:114:public void centerShapeInCamera(org.anddev.andengine.entity.shape.Shape)
+    117:118:public void centerShapeInCameraHorizontally(org.anddev.andengine.entity.shape.Shape)
+    121:122:public void centerShapeInCameraVertically(org.anddev.andengine.entity.shape.Shape)
+org.anddev.andengine.entity.scene.Scene:
+    private static final int TOUCHAREAS_CAPACITY_DEFAULT
+    protected org.anddev.andengine.entity.scene.Scene mParentScene
+    76:80:public Scene(int)
+    87:87:public float getSecondsElapsedTotal()
+    91:91:public org.anddev.andengine.entity.scene.background.IBackground getBackground()
+    99:99:public boolean isBackgroundEnabled()
+    107:108:public void setOnSceneTouchListener(org.anddev.andengine.entity.scene.Scene$IOnSceneTouchListener)
+    111:111:public org.anddev.andengine.entity.scene.Scene$IOnSceneTouchListener getOnSceneTouchListener()
+    115:115:public boolean hasOnSceneTouchListener()
+    123:123:public org.anddev.andengine.entity.scene.Scene$IOnAreaTouchListener getOnAreaTouchListener()
+    127:127:public boolean hasOnAreaTouchListener()
+    131:132:private void setParentScene(org.anddev.andengine.entity.scene.Scene)
+    135:135:public boolean hasChildScene()
+    139:139:public org.anddev.andengine.entity.scene.Scene getChildScene()
+    143:144:public void setChildSceneModal(org.anddev.andengine.entity.scene.Scene)
+    147:148:public void setChildScene(org.anddev.andengine.entity.scene.Scene)
+    151:156:public void setChildScene(org.anddev.andengine.entity.scene.Scene,boolean,boolean,boolean)
+    159:160:public void clearChildScene()
+    163:164:public void setOnAreaTouchTraversalBackToFront()
+    167:168:public void setOnAreaTouchTraversalFrontToBack()
+    171:171:public boolean isTouchAreaBindingEnabled()
+    186:190:public void setTouchAreaBindingEnabled(boolean)
+    193:193:public boolean isOnSceneTouchListenerBindingEnabled()
+    208:212:public void setOnSceneTouchListenerBindingEnabled(boolean)
+    390:393:public void reset()
+    405:406:public void postRunnable(java.lang.Runnable)
+    417:417:public boolean unregisterTouchAreas(org.anddev.andengine.entity.scene.Scene$ITouchArea$ITouchAreaMatcher)
+    425:425:public java.util.ArrayList getTouchAreas()
+    429:435:public void back()
+org.anddev.andengine.entity.scene.Scene$ITouchArea:
+    public abstract float[] convertLocalToSceneCoordinates(float,float)
+org.anddev.andengine.entity.scene.Scene$ITouchArea$ITouchAreaMatcher
+org.anddev.andengine.entity.scene.SplashScene
+org.anddev.andengine.entity.scene.background.AutoParallaxBackground
+org.anddev.andengine.entity.scene.background.BaseBackground:
+    private static final int BACKGROUNDMODIFIERS_CAPACITY_DEFAULT
+    42:43:public void addBackgroundModifier(org.anddev.andengine.util.modifier.IModifier)
+    47:47:public boolean removeBackgroundModifier(org.anddev.andengine.util.modifier.IModifier)
+    52:53:public void clearBackgroundModifiers()
+    62:63:public void reset()
+org.anddev.andengine.entity.scene.background.ColorBackground:
+    46:51:public ColorBackground(float,float,float,float)
+    65:68:public void setColor(float,float,float)
+    79:81:public void setColor(float,float,float,float)
+    90:91:public void setColor(int,int,int)
+    100:101:public void setColor(int,int,int,int)
+    104:105:public void setColorEnabled(boolean)
+    108:108:public boolean isColorEnabled()
+org.anddev.andengine.entity.scene.background.EntityBackground:
+    35:37:public EntityBackground(float,float,float,org.anddev.andengine.entity.IEntity)
+org.anddev.andengine.entity.scene.background.IBackground:
+    public abstract void addBackgroundModifier(org.anddev.andengine.util.modifier.IModifier)
+    public abstract boolean removeBackgroundModifier(org.anddev.andengine.util.modifier.IModifier)
+    public abstract void clearBackgroundModifiers()
+    public abstract void setColor(float,float,float)
+    public abstract void setColor(float,float,float,float)
+org.anddev.andengine.entity.scene.background.ParallaxBackground
+org.anddev.andengine.entity.scene.background.ParallaxBackground$ParallaxEntity
+org.anddev.andengine.entity.scene.background.RepeatingSpriteBackground
+org.anddev.andengine.entity.scene.background.SpriteBackground:
+    30:31:public SpriteBackground(float,float,float,org.anddev.andengine.entity.sprite.BaseSprite)
+org.anddev.andengine.entity.scene.background.modifier.ColorModifier
+org.anddev.andengine.entity.scene.background.modifier.IBackgroundModifier
+org.anddev.andengine.entity.scene.background.modifier.IBackgroundModifier$IBackgroundModifierListener
+org.anddev.andengine.entity.scene.background.modifier.LoopBackgroundModifier
+org.anddev.andengine.entity.scene.background.modifier.LoopBackgroundModifier$ILoopBackgroundModifierListener
+org.anddev.andengine.entity.scene.background.modifier.ParallelBackgroundModifier
+org.anddev.andengine.entity.scene.background.modifier.SequenceBackgroundModifier
+org.anddev.andengine.entity.scene.background.modifier.SequenceBackgroundModifier$ISubSequenceBackgroundModifierListener
+org.anddev.andengine.entity.scene.menu.MenuScene
+org.anddev.andengine.entity.scene.menu.MenuScene$IOnMenuItemClickListener
+org.anddev.andengine.entity.scene.menu.animator.AlphaMenuAnimator
+org.anddev.andengine.entity.scene.menu.animator.BaseMenuAnimator
+org.anddev.andengine.entity.scene.menu.animator.DirectMenuAnimator
+org.anddev.andengine.entity.scene.menu.animator.IMenuAnimator
+org.anddev.andengine.entity.scene.menu.animator.SlideMenuAnimator
+org.anddev.andengine.entity.scene.menu.item.AnimatedSpriteMenuItem
+org.anddev.andengine.entity.scene.menu.item.IMenuItem
+org.anddev.andengine.entity.scene.menu.item.SpriteMenuItem
+org.anddev.andengine.entity.scene.menu.item.TextMenuItem
+org.anddev.andengine.entity.scene.menu.item.decorator.BaseMenuItemDecorator
+org.anddev.andengine.entity.scene.menu.item.decorator.ColorMenuItemDecorator
+org.anddev.andengine.entity.scene.menu.item.decorator.ScaleMenuItemDecorator
+org.anddev.andengine.entity.scene.popup.PopupScene
+org.anddev.andengine.entity.scene.popup.PopupScene$1
+org.anddev.andengine.entity.scene.popup.TextPopupScene
+org.anddev.andengine.entity.shape.IShape:
+    public abstract boolean isCullingEnabled()
+    public abstract void setCullingEnabled(boolean)
+    public abstract float getWidth()
+    public abstract float getHeight()
+    public abstract float getBaseWidth()
+    public abstract float getBaseHeight()
+    public abstract float getWidthScaled()
+    public abstract float getHeightScaled()
+    public abstract boolean collidesWith(org.anddev.andengine.entity.shape.IShape)
+    public abstract void setBlendFunction(int,int)
+org.anddev.andengine.entity.shape.RectangularShape:
+    77:77:public float getBaseWidth()
+    82:82:public float getBaseHeight()
+    86:88:public void setWidth(float)
+    91:93:public void setHeight(float)
+    96:99:public void setSize(float,float)
+    106:111:public void setBaseSize()
+    130:141:public void reset()
+    155:162:public boolean collidesWith(org.anddev.andengine.entity.shape.IShape)
+org.anddev.andengine.entity.shape.Shape:
+    public static final int BLENDFUNCTION_SOURCE_DEFAULT
+    public static final int BLENDFUNCTION_DESTINATION_DEFAULT
+    public static final int BLENDFUNCTION_SOURCE_PREMULTIPLYALPHA_DEFAULT
+    public static final int BLENDFUNCTION_DESTINATION_PREMULTIPLYALPHA_DEFAULT
+    60:60:public boolean isCullingEnabled()
+    65:66:public void setCullingEnabled(boolean)
+    70:70:public float getWidthScaled()
+    75:75:public float getHeightScaled()
+    79:79:public boolean isVertexBufferManaged()
+    86:87:public void setVertexBufferManaged(boolean)
+    126:130:public void reset()
+org.anddev.andengine.entity.sprite.AnimatedSprite:
+    private static final int LOOP_CONTINUOUS
+    44:45:public AnimatedSprite(float,float,float,float,org.anddev.andengine.opengl.texture.region.TiledTextureRegion)
+    48:49:public AnimatedSprite(float,float,org.anddev.andengine.opengl.texture.region.TiledTextureRegion,org.anddev.andengine.opengl.vertex.RectangleVertexBuffer)
+    52:53:public AnimatedSprite(float,float,float,float,org.anddev.andengine.opengl.texture.region.TiledTextureRegion,org.anddev.andengine.opengl.vertex.RectangleVertexBuffer)
+    125:125:public org.anddev.andengine.entity.sprite.AnimatedSprite animate(long)
+    133:133:public org.anddev.andengine.entity.sprite.AnimatedSprite animate(long,int)
+    147:147:public org.anddev.andengine.entity.sprite.AnimatedSprite animate(long[])
+    151:151:public org.anddev.andengine.entity.sprite.AnimatedSprite animate(long[],boolean)
+    155:155:public org.anddev.andengine.entity.sprite.AnimatedSprite animate(long[],int)
+    159:159:public org.anddev.andengine.entity.sprite.AnimatedSprite animate(long[],boolean,org.anddev.andengine.entity.sprite.AnimatedSprite$IAnimationListener)
+    171:171:public org.anddev.andengine.entity.sprite.AnimatedSprite animate(long[],int,int,int)
+    175:175:public org.anddev.andengine.entity.sprite.AnimatedSprite animate(long[],int[],int)
+    187:192:public org.anddev.andengine.entity.sprite.AnimatedSprite animate(long[],int[],int,org.anddev.andengine.entity.sprite.AnimatedSprite$IAnimationListener)
+org.anddev.andengine.entity.sprite.BaseSprite:
+    42:46:public BaseSprite(float,float,float,float,org.anddev.andengine.opengl.texture.region.BaseTextureRegion,org.anddev.andengine.opengl.vertex.RectangleVertexBuffer)
+    57:58:public void setFlippedHorizontal(boolean)
+    61:62:public void setFlippedVertical(boolean)
+    70:73:public void reset()
+org.anddev.andengine.entity.sprite.Sprite:
+    31:32:public Sprite(float,float,float,float,org.anddev.andengine.opengl.texture.region.TextureRegion)
+    35:36:public Sprite(float,float,org.anddev.andengine.opengl.texture.region.TextureRegion,org.anddev.andengine.opengl.vertex.RectangleVertexBuffer)
+    39:40:public Sprite(float,float,float,float,org.anddev.andengine.opengl.texture.region.TextureRegion,org.anddev.andengine.opengl.vertex.RectangleVertexBuffer)
+org.anddev.andengine.entity.sprite.TiledSprite:
+    31:32:public TiledSprite(float,float,float,float,org.anddev.andengine.opengl.texture.region.TiledTextureRegion)
+    35:36:public TiledSprite(float,float,org.anddev.andengine.opengl.texture.region.TiledTextureRegion,org.anddev.andengine.opengl.vertex.RectangleVertexBuffer)
+    39:40:public TiledSprite(float,float,float,float,org.anddev.andengine.opengl.texture.region.TiledTextureRegion,org.anddev.andengine.opengl.vertex.RectangleVertexBuffer)
+    60:60:public int getCurrentTileIndex()
+    68:69:public void setCurrentTileIndex(int,int)
+    72:73:public void nextTile()
+org.anddev.andengine.entity.sprite.batch.DynamicSpriteBatch
+org.anddev.andengine.entity.sprite.batch.SpriteBatch
+org.anddev.andengine.entity.sprite.batch.SpriteGroup
+org.anddev.andengine.entity.text.ChangeableText:
+    private static final java.lang.String ELLIPSIS
+org.anddev.andengine.entity.text.Text:
+    115:115:public java.lang.String getText()
+    119:119:public int getCharactersMaximum()
+org.anddev.andengine.entity.text.TickerText
+org.anddev.andengine.entity.util.AverageFPSCounter
+org.anddev.andengine.entity.util.FPSCounter
+org.anddev.andengine.entity.util.FPSLogger
+org.anddev.andengine.entity.util.FrameCountCrasher
+org.anddev.andengine.entity.util.FrameCounter
+org.anddev.andengine.entity.util.ScreenCapture
+org.anddev.andengine.entity.util.ScreenCapture$IScreenCaptureCallback
+org.anddev.andengine.entity.util.ScreenGrabber
+org.anddev.andengine.entity.util.ScreenGrabber$IScreenGrabberCallback
+org.anddev.andengine.input.touch.TouchEvent:
+    public static final int ACTION_CANCEL
+    public static final int ACTION_DOWN
+    public static final int ACTION_MOVE
+    public static final int ACTION_OUTSIDE
+    public static final int ACTION_UP
+    63:64:public static void recycle(org.anddev.andengine.input.touch.TouchEvent)
+    105:105:public boolean isActionMove()
+    109:109:public boolean isActionCancel()
+    113:113:public boolean isActionOutside()
+org.anddev.andengine.input.touch.controller.BaseTouchController:
+    60:63:public void reset()
+org.anddev.andengine.input.touch.detector.BaseDetector
+org.anddev.andengine.input.touch.detector.ClickDetector
+org.anddev.andengine.input.touch.detector.ClickDetector$IClickDetectorListener
+org.anddev.andengine.input.touch.detector.HoldDetector
+org.anddev.andengine.input.touch.detector.HoldDetector$1
+org.anddev.andengine.input.touch.detector.HoldDetector$IHoldDetectorListener
+org.anddev.andengine.input.touch.detector.ScrollDetector
+org.anddev.andengine.input.touch.detector.ScrollDetector$IScrollDetectorListener
+org.anddev.andengine.input.touch.detector.SurfaceGestureDetector
+org.anddev.andengine.input.touch.detector.SurfaceGestureDetector$InnerOnGestureDetectorListener
+org.anddev.andengine.input.touch.detector.SurfaceGestureDetector$SurfaceGestureDetectorAdapter
+org.anddev.andengine.input.touch.detector.SurfaceScrollDetector
+org.anddev.andengine.level.LevelLoader
+org.anddev.andengine.level.LevelLoader$IEntityLoader
+org.anddev.andengine.level.LevelParser
+org.anddev.andengine.level.util.constants.LevelConstants
+org.anddev.andengine.opengl.buffer.BufferObject:
+    75:75:public int getHardwareBufferID()
+org.anddev.andengine.opengl.buffer.BufferObjectManager:
+    58:61:public synchronized void clear()
+    91:94:public void loadBufferObjects(org.anddev.andengine.opengl.buffer.BufferObject[])
+    97:100:public void unloadBufferObjects(org.anddev.andengine.opengl.buffer.BufferObject[])
+org.anddev.andengine.opengl.font.Font:
+    protected static final float LETTER_LEFT_OFFSET
+    private static final int LETTER_EXTRA_WIDTH
+    160:163:public void prepareLetters(char[])
+org.anddev.andengine.opengl.font.FontFactory:
+    58:58:public static org.anddev.andengine.opengl.font.Font create(org.anddev.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas,android.graphics.Typeface,float,boolean,int)
+    62:62:public static org.anddev.andengine.opengl.font.StrokeFont createStroke(org.anddev.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas,android.graphics.Typeface,float,boolean,int,float,int)
+    66:66:public static org.anddev.andengine.opengl.font.StrokeFont createStroke(org.anddev.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas,android.graphics.Typeface,float,boolean,int,float,int,boolean)
+    74:74:public static org.anddev.andengine.opengl.font.StrokeFont createStrokeFromAsset(org.anddev.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas,android.content.Context,java.lang.String,float,boolean,int,float,int)
+org.anddev.andengine.opengl.font.FontLibrary
+org.anddev.andengine.opengl.font.FontManager:
+    43:44:public void clear()
+    54:55:public void loadFonts(org.anddev.andengine.opengl.font.FontLibrary)
+org.anddev.andengine.opengl.font.StrokeFont:
+    33:34:public StrokeFont(org.anddev.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas,android.graphics.Typeface,float,boolean,int,float,int)
+org.anddev.andengine.opengl.texture.ITexture:
+    public abstract int getHardwareTextureID()
+    public abstract void setUpdateOnHardwareNeeded(boolean)
+    public abstract boolean hasTextureStateListener()
+    public abstract org.anddev.andengine.opengl.texture.ITexture$ITextureStateListener getTextureStateListener()
+org.anddev.andengine.opengl.texture.ITexture$ITextureStateListener$DebugTextureStateListener
+org.anddev.andengine.opengl.texture.ITexture$ITextureStateListener$TextureStateAdapter
+org.anddev.andengine.opengl.texture.Texture:
+    58:58:public int getHardwareTextureID()
+    78:79:public void setUpdateOnHardwareNeeded(boolean)
+    82:82:public org.anddev.andengine.opengl.texture.Texture$PixelFormat getPixelFormat()
+    97:97:public boolean hasTextureStateListener()
+org.anddev.andengine.opengl.texture.Texture$PixelFormat:
+    227:227:public int getBitsPerPixel()
+org.anddev.andengine.opengl.texture.TextureManager:
+    51:54:protected void clear()
+    77:87:public boolean unloadTexture(org.anddev.andengine.opengl.texture.ITexture)
+    98:101:public void unloadTextures(org.anddev.andengine.opengl.texture.ITexture[])
+org.anddev.andengine.opengl.texture.atlas.ITextureAtlas:
+    public abstract void removeTextureAtlasSource(org.anddev.andengine.opengl.texture.source.ITextureAtlasSource,int,int)
+    public abstract void clearTextureAtlasSources()
+    public abstract org.anddev.andengine.opengl.texture.atlas.ITextureAtlas$ITextureAtlasStateListener getTextureStateListener()
+org.anddev.andengine.opengl.texture.atlas.ITextureAtlas$ITextureAtlasStateListener$DebugTextureAtlasStateListener
+org.anddev.andengine.opengl.texture.atlas.ITextureAtlas$ITextureAtlasStateListener$TextureAtlasStateAdapter
+org.anddev.andengine.opengl.texture.atlas.TextureAtlas:
+    80:89:public void removeTextureAtlasSource(org.anddev.andengine.opengl.texture.source.ITextureAtlasSource,int,int)
+    93:95:public void clearTextureAtlasSources()
+org.anddev.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas:
+    47:48:public BitmapTextureAtlas(int,int)
+    56:57:public BitmapTextureAtlas(int,int,org.anddev.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas$BitmapTextureFormat)
+    67:68:public BitmapTextureAtlas(int,int,org.anddev.andengine.opengl.texture.atlas.ITextureAtlas$ITextureAtlasStateListener)
+    77:78:public BitmapTextureAtlas(int,int,org.anddev.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas$BitmapTextureFormat,org.anddev.andengine.opengl.texture.atlas.ITextureAtlas$ITextureAtlasStateListener)
+    98:99:public BitmapTextureAtlas(int,int,org.anddev.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas$BitmapTextureFormat,org.anddev.andengine.opengl.texture.TextureOptions)
+    110:111:public BitmapTextureAtlas(int,int,org.anddev.andengine.opengl.texture.TextureOptions,org.anddev.andengine.opengl.texture.atlas.ITextureAtlas$ITextureAtlasStateListener)
+    131:131:public org.anddev.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas$BitmapTextureFormat getBitmapTextureFormat()
+org.anddev.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlasFactory
+org.anddev.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlasTextureRegionFactory:
+    86:87:public static org.anddev.andengine.opengl.texture.region.TextureRegion createFromResource(org.anddev.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas,android.content.Context,int,int,int)
+    91:92:public static org.anddev.andengine.opengl.texture.region.TiledTextureRegion createTiledFromResource(org.anddev.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas,android.content.Context,int,int,int,int,int)
+    108:109:public static org.anddev.andengine.opengl.texture.region.TextureRegion createFromAsset(org.anddev.andengine.opengl.texture.atlas.bitmap.BuildableBitmapTextureAtlas,android.content.Context,java.lang.String)
+    113:114:public static org.anddev.andengine.opengl.texture.region.TiledTextureRegion createTiledFromAsset(org.anddev.andengine.opengl.texture.atlas.bitmap.BuildableBitmapTextureAtlas,android.content.Context,java.lang.String,int,int)
+    119:120:public static org.anddev.andengine.opengl.texture.region.TextureRegion createFromResource(org.anddev.andengine.opengl.texture.atlas.bitmap.BuildableBitmapTextureAtlas,android.content.Context,int)
+    124:125:public static org.anddev.andengine.opengl.texture.region.TiledTextureRegion createTiledFromResource(org.anddev.andengine.opengl.texture.atlas.bitmap.BuildableBitmapTextureAtlas,android.content.Context,int,int,int)
+    130:130:public static org.anddev.andengine.opengl.texture.region.TextureRegion createFromSource(org.anddev.andengine.opengl.texture.atlas.bitmap.BuildableBitmapTextureAtlas,org.anddev.andengine.opengl.texture.atlas.bitmap.source.IBitmapTextureAtlasSource)
+    134:134:public static org.anddev.andengine.opengl.texture.region.TiledTextureRegion createTiledFromSource(org.anddev.andengine.opengl.texture.atlas.bitmap.BuildableBitmapTextureAtlas,org.anddev.andengine.opengl.texture.atlas.bitmap.source.IBitmapTextureAtlasSource,int,int)
+org.anddev.andengine.opengl.texture.atlas.bitmap.BuildableBitmapTextureAtlas
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.AssetBitmapTextureAtlasSource:
+    1:1:public org.anddev.andengine.opengl.texture.source.ITextureAtlasSource clone()
+    1:1:public org.anddev.andengine.opengl.texture.atlas.bitmap.source.IBitmapTextureAtlasSource clone()
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.EmptyBitmapTextureAtlasSource
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.ExternalStorageFileBitmapTextureAtlasSource
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.FileBitmapTextureAtlasSource
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.IBitmapTextureAtlasSource:
+    public abstract org.anddev.andengine.opengl.texture.atlas.bitmap.source.IBitmapTextureAtlasSource clone()
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.InternalStorageFileBitmapTextureAtlasSource
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.PictureBitmapTextureAtlasSource
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.ResourceBitmapTextureAtlasSource
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.decorator.BaseBitmapTextureAtlasSourceDecorator
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.decorator.BaseBitmapTextureAtlasSourceDecorator$TextureAtlasSourceDecoratorOptions
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.decorator.BaseShapeBitmapTextureAtlasSourceDecorator
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.decorator.ColorKeyBitmapTextureAtlasSourceDecorator
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.decorator.ColorSwapBitmapTextureAtlasSourceDecorator
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.decorator.FillBitmapTextureAtlasSourceDecorator
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.decorator.LinearGradientFillBitmapTextureAtlasSourceDecorator
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.decorator.LinearGradientFillBitmapTextureAtlasSourceDecorator$LinearGradientDirection
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.decorator.OutlineBitmapTextureAtlasSourceDecorator
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.decorator.RadialGradientFillBitmapTextureAtlasSourceDecorator
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.decorator.RadialGradientFillBitmapTextureAtlasSourceDecorator$RadialGradientDirection
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.decorator.shape.ArcBitmapTextureAtlasSourceDecoratorShape
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.decorator.shape.CircleBitmapTextureAtlasSourceDecoratorShape
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.decorator.shape.EllipseBitmapTextureAtlasSourceDecoratorShape
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.decorator.shape.IBitmapTextureAtlasSourceDecoratorShape
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.decorator.shape.RectangleBitmapTextureAtlasSourceDecoratorShape
+org.anddev.andengine.opengl.texture.atlas.bitmap.source.decorator.shape.RoundedRectangleBitmapTextureAtlasSourceDecoratorShape
+org.anddev.andengine.opengl.texture.buildable.BuildableTextureAtlas
+org.anddev.andengine.opengl.texture.buildable.BuildableTextureAtlas$TextureAtlasSourceWithWithLocationCallback
+org.anddev.andengine.opengl.texture.buildable.BuildableTextureAtlasTextureRegionFactory
+org.anddev.andengine.opengl.texture.buildable.BuildableTextureAtlasTextureRegionFactory$1
+org.anddev.andengine.opengl.texture.buildable.BuildableTextureAtlasTextureRegionFactory$2
+org.anddev.andengine.opengl.texture.buildable.builder.BlackPawnTextureBuilder
+org.anddev.andengine.opengl.texture.buildable.builder.BlackPawnTextureBuilder$1
+org.anddev.andengine.opengl.texture.buildable.builder.BlackPawnTextureBuilder$Node
+org.anddev.andengine.opengl.texture.buildable.builder.BlackPawnTextureBuilder$Rect
+org.anddev.andengine.opengl.texture.buildable.builder.ITextureBuilder
+org.anddev.andengine.opengl.texture.buildable.builder.ITextureBuilder$TextureAtlasSourcePackingException
+org.anddev.andengine.opengl.texture.compressed.etc1.ETC1Texture
+org.anddev.andengine.opengl.texture.compressed.etc1.ETC1Texture$ETC1TextureHeader
+org.anddev.andengine.opengl.texture.compressed.pvr.PVRCCZTexture
+org.anddev.andengine.opengl.texture.compressed.pvr.PVRCCZTexture$CCZCompressionFormat
+org.anddev.andengine.opengl.texture.compressed.pvr.PVRCCZTexture$CCZHeader
+org.anddev.andengine.opengl.texture.compressed.pvr.PVRGZTexture
+org.anddev.andengine.opengl.texture.compressed.pvr.PVRTexture
+org.anddev.andengine.opengl.texture.compressed.pvr.PVRTexture$PVRTextureFormat
+org.anddev.andengine.opengl.texture.compressed.pvr.PVRTexture$PVRTextureHeader
+org.anddev.andengine.opengl.texture.region.BaseTextureRegion:
+    74:76:public void setWidth(int)
+    79:81:public void setHeight(int)
+    84:87:public void setTexturePosition(int,int)
+    106:106:public org.anddev.andengine.opengl.texture.region.crop.TextureRegionCrop getTexureRegionCrop()
+    110:110:public boolean isFlippedHorizontal()
+    114:116:public void setFlippedHorizontal(boolean)
+    119:119:public boolean isFlippedVertical()
+    123:125:public void setFlippedVertical(boolean)
+    128:128:public boolean isTextureRegionBufferManaged()
+    174:176:public void onApplyCrop(javax.microedition.khronos.opengles.GL11)
+org.anddev.andengine.opengl.texture.region.TextureRegionFactory:
+    42:44:public static org.anddev.andengine.opengl.texture.region.TextureRegion extractFromTexture(org.anddev.andengine.opengl.texture.ITexture,int,int,int,int,boolean)
+org.anddev.andengine.opengl.texture.region.TextureRegionLibrary
+org.anddev.andengine.opengl.texture.region.TiledTextureRegion:
+    66:66:public int getCurrentTileColumn()
+    70:70:public int getCurrentTileRow()
+    74:74:public int getCurrentTileIndex()
+    156:158:public void nextTile()
+org.anddev.andengine.opengl.texture.region.buffer.SpriteBatchTextureRegionBuffer
+org.anddev.andengine.opengl.texture.region.buffer.TextureRegionBuffer:
+    44:44:public org.anddev.andengine.opengl.texture.region.BaseTextureRegion getTextureRegion()
+    48:48:public boolean isFlippedHorizontal()
+    52:56:public void setFlippedHorizontal(boolean)
+    59:59:public boolean isFlippedVertical()
+    63:67:public void setFlippedVertical(boolean)
+org.anddev.andengine.opengl.texture.region.crop.TextureRegionCrop:
+    private static final int LEFT_INDEX
+    private static final int BOTTOM_INDEX
+    private static final int WIDTH_INDEX
+    private static final int HEIGHT_INDEX
+    52:52:public boolean isDirty()
+    56:56:public int[] getData()
+    60:60:public boolean isFlippedHorizontal()
+    64:68:public void setFlippedHorizontal(boolean)
+    71:71:public boolean isFlippedVertical()
+    75:79:public void setFlippedVertical(boolean)
+    126:132:public void selectOnHardware(javax.microedition.khronos.opengles.GL11)
+    135:136:public void apply(javax.microedition.khronos.opengles.GL11)
+org.anddev.andengine.opengl.texture.source.BaseTextureAtlasSource:
+    1:1:public org.anddev.andengine.opengl.texture.source.ITextureAtlasSource clone()
+org.anddev.andengine.opengl.texture.source.ITextureAtlasSource:
+    public abstract org.anddev.andengine.opengl.texture.source.ITextureAtlasSource clone()
+org.anddev.andengine.opengl.util.FastFloatBuffer:
+    69:72:public void flip()
+    90:107:public void put(float[])
+    134:140:public static int[] convert(float[])
+    147:151:public void put(org.anddev.andengine.opengl.util.FastFloatBuffer)
+    157:157:public int capacity()
+    164:164:public int position()
+    180:180:public java.nio.FloatBuffer slice()
+    187:187:public int remaining()
+    194:194:public int limit()
+    201:204:public void clear()
+org.anddev.andengine.opengl.util.GLHelper:
+    public static final int BYTES_PER_FLOAT
+    public static final int BYTES_PER_PIXEL_RGBA
+    193:197:public static void enableScissorTest(javax.microedition.khronos.opengles.GL10)
+    199:203:public static void disableScissorTest(javax.microedition.khronos.opengles.GL10)
+    368:372:public static void lineWidth(javax.microedition.khronos.opengles.GL10,float)
+    413:417:public static void textureCrop(javax.microedition.khronos.opengles.GL11,org.anddev.andengine.opengl.texture.region.crop.TextureRegionCrop)
+    561:565:public static void checkGLError(javax.microedition.khronos.opengles.GL10)
+org.anddev.andengine.opengl.vertex.LineVertexBuffer
+org.anddev.andengine.opengl.vertex.RectangleVertexBuffer:
+    public static final int VERTICES_PER_RECTANGLE
+org.anddev.andengine.opengl.vertex.SpriteBatchVertexBuffer
+org.anddev.andengine.opengl.vertex.TextVertexBuffer:
+    public static final int VERTICES_PER_CHARACTER
+org.anddev.andengine.opengl.view.GLSurfaceView:
+    public static final int RENDERMODE_WHEN_DIRTY
+    public static final int RENDERMODE_CONTINUOUSLY
+    public static final int DEBUG_CHECK_GL_ERROR
+    public static final int DEBUG_LOG_GL_CALLS
+    private int mDebugFlags
+    252:253:public void setGLWrapper(org.anddev.andengine.opengl.view.GLWrapper)
+    266:267:public void setDebugFlags(int)
+    275:275:public int getDebugFlags()
+    366:367:public void setEGLConfigChooser(int,int,int,int,int,int)
+    388:392:public void setRenderMode(int)
+    403:403:public int getRenderMode()
+    417:418:public void requestRender()
+    501:504:public void queueEvent(java.lang.Runnable)
+org.anddev.andengine.opengl.view.GLSurfaceView$GLThread:
+    662:662:public int getRenderMode()
+    668:672:public void requestRender()
+    731:734:public void queueEvent(java.lang.Runnable)
+org.anddev.andengine.opengl.view.LogWriter
+org.anddev.andengine.sensor.BaseSensorData:
+    29:33:public BaseSensorData(int,int)
+    40:40:public float[] getValues()
+    52:52:public int getAccuracy()
+org.anddev.andengine.sensor.SensorDelay:
+    46:46:public int getDelay()
+org.anddev.andengine.sensor.accelerometer.AccelerometerData:
+    75:76:public AccelerometerData(int)
+    83:83:public float getX()
+    87:87:public float getY()
+    91:91:public float getZ()
+    95:96:public void setX(float)
+    99:100:public void setY(float)
+    103:104:public void setZ(float)
+org.anddev.andengine.sensor.accelerometer.AccelerometerSensorOptions
+org.anddev.andengine.sensor.location.LocationSensorOptions:
+    private static final long MINIMUMTRIGGERTIME_DEFAULT
+    private static final long MINIMUMTRIGGERDISTANCE_DEFAULT
+    61:72:public LocationSensorOptions(int,boolean,boolean,boolean,int,boolean,boolean,long,long)
+    79:80:public void setEnabledOnly(boolean)
+    83:83:public boolean isEnabledOnly()
+    87:87:public long getMinimumTriggerTime()
+    91:92:public void setMinimumTriggerTime(long)
+    95:95:public long getMinimumTriggerDistance()
+    99:100:public void setMinimumTriggerDistance(long)
+org.anddev.andengine.sensor.orientation.OrientationData:
+    38:39:public OrientationData(int)
+    46:46:public float getRoll()
+    50:50:public float getPitch()
+    54:54:public float getYaw()
+    107:107:public int getAccelerometerAccuracy()
+    115:115:public int getMagneticFieldAccuracy()
+org.anddev.andengine.sensor.orientation.OrientationSensorOptions
+org.anddev.andengine.ui.IGameInterface:
+    public abstract void onUnloadResources()
+    public abstract void onPauseGame()
+    public abstract void onResumeGame()
+org.anddev.andengine.ui.activity.BaseActivity:
+    57:58:protected void doAsync(int,int,java.util.concurrent.Callable,org.anddev.andengine.util.Callback)
+    73:74:protected void doAsync(int,int,java.util.concurrent.Callable,org.anddev.andengine.util.Callback,org.anddev.andengine.util.Callback)
+    88:89:protected void doProgressAsync(int,org.anddev.andengine.util.progress.ProgressCallable,org.anddev.andengine.util.Callback)
+    104:105:protected void doProgressAsync(int,org.anddev.andengine.util.progress.ProgressCallable,org.anddev.andengine.util.Callback,org.anddev.andengine.util.Callback)
+    120:121:protected void doAsync(int,int,org.anddev.andengine.util.AsyncCallable,org.anddev.andengine.util.Callback,org.anddev.andengine.util.Callback)
+org.anddev.andengine.ui.activity.BaseActivity$CancelledException
+org.anddev.andengine.ui.activity.BaseGameActivity:
+    129:129:public org.anddev.andengine.engine.Engine getEngine()
+    244:245:protected void enableVibrator()
+    251:252:protected void enableLocationSensor(org.anddev.andengine.sensor.location.ILocationListener,org.anddev.andengine.sensor.location.LocationSensorOptions)
+    258:259:protected void disableLocationSensor()
+    265:265:protected boolean enableAccelerometerSensor(org.anddev.andengine.sensor.accelerometer.IAccelerometerListener)
+    272:272:protected boolean enableAccelerometerSensor(org.anddev.andengine.sensor.accelerometer.IAccelerometerListener,org.anddev.andengine.sensor.accelerometer.AccelerometerSensorOptions)
+    279:279:protected boolean disableAccelerometerSensor()
+    286:286:protected boolean enableOrientationSensor(org.anddev.andengine.sensor.orientation.IOrientationListener)
+    293:293:protected boolean enableOrientationSensor(org.anddev.andengine.sensor.orientation.IOrientationListener,org.anddev.andengine.sensor.orientation.OrientationSensorOptions)
+    300:300:protected boolean disableOrientationSensor()
+org.anddev.andengine.ui.activity.BaseSplashActivity:
+    private org.anddev.andengine.engine.camera.Camera mCamera
+    private org.anddev.andengine.opengl.texture.atlas.bitmap.source.IBitmapTextureAtlasSource mSplashTextureAtlasSource
+    private org.anddev.andengine.opengl.texture.region.TextureRegion mLoadingScreenTextureRegion
+    protected abstract org.anddev.andengine.engine.options.EngineOptions$ScreenOrientation getScreenOrientation()
+    protected abstract org.anddev.andengine.opengl.texture.atlas.bitmap.source.IBitmapTextureAtlasSource onGetSplashTextureAtlasSource()
+    protected abstract float getSplashDuration()
+    protected abstract java.lang.Class getFollowUpActivity()
+    65:65:protected float getSplashScaleFrom()
+    69:69:protected float getSplashScaleTo()
+    74:74:public void onLoadComplete()
+    78:84:public org.anddev.andengine.engine.Engine onLoadEngine()
+    89:93:public void onLoadResources()
+    97:109:public org.anddev.andengine.entity.scene.Scene onLoadScene()
+    117:117:protected org.anddev.andengine.engine.camera.Camera getSplashCamera(int,int)
+    121:121:protected org.anddev.andengine.engine.options.resolutionpolicy.IResolutionPolicy getSplashResolutionPolicy(int,int)
+org.anddev.andengine.ui.activity.BaseSplashActivity$1
+org.anddev.andengine.ui.activity.LayoutGameActivity:
+    protected abstract int getLayoutID()
+    protected abstract int getRenderSurfaceViewID()
+    38:44:protected void onSetContentView()
+org.anddev.andengine.ui.dialog.GenericInputDialogBuilder
+org.anddev.andengine.ui.dialog.GenericInputDialogBuilder$1
+org.anddev.andengine.ui.dialog.GenericInputDialogBuilder$2
+org.anddev.andengine.ui.dialog.StringInputDialogBuilder
+org.anddev.andengine.util.ActivityUtils:
+    62:66:public static void setScreenBrightness(android.app.Activity,float)
+    73:74:public static void doAsync(android.content.Context,int,int,java.util.concurrent.Callable,org.anddev.andengine.util.Callback)
+    77:78:public static void doAsync(android.content.Context,java.lang.CharSequence,java.lang.CharSequence,java.util.concurrent.Callable,org.anddev.andengine.util.Callback)
+    81:82:public static void doAsync(android.content.Context,int,int,java.util.concurrent.Callable,org.anddev.andengine.util.Callback,boolean)
+    85:86:public static void doAsync(android.content.Context,java.lang.CharSequence,java.lang.CharSequence,java.util.concurrent.Callable,org.anddev.andengine.util.Callback,boolean)
+    89:90:public static void doAsync(android.content.Context,int,int,java.util.concurrent.Callable,org.anddev.andengine.util.Callback,org.anddev.andengine.util.Callback)
+    93:94:public static void doAsync(android.content.Context,java.lang.CharSequence,java.lang.CharSequence,java.util.concurrent.Callable,org.anddev.andengine.util.Callback,org.anddev.andengine.util.Callback)
+    97:98:public static void doAsync(android.content.Context,int,int,java.util.concurrent.Callable,org.anddev.andengine.util.Callback,org.anddev.andengine.util.Callback,boolean)
+    101:155:public static void doAsync(android.content.Context,java.lang.CharSequence,java.lang.CharSequence,java.util.concurrent.Callable,org.anddev.andengine.util.Callback,org.anddev.andengine.util.Callback,boolean)
+    158:159:public static void doProgressAsync(android.content.Context,int,org.anddev.andengine.util.progress.ProgressCallable,org.anddev.andengine.util.Callback)
+    162:223:public static void doProgressAsync(android.content.Context,int,org.anddev.andengine.util.progress.ProgressCallable,org.anddev.andengine.util.Callback,org.anddev.andengine.util.Callback)
+    226:240:public static void doAsync(android.content.Context,int,int,org.anddev.andengine.util.AsyncCallable,org.anddev.andengine.util.Callback,org.anddev.andengine.util.Callback)
+org.anddev.andengine.util.ActivityUtils$1
+org.anddev.andengine.util.ActivityUtils$1$1
+org.anddev.andengine.util.ActivityUtils$2
+org.anddev.andengine.util.ActivityUtils$2$1
+org.anddev.andengine.util.ActivityUtils$3
+org.anddev.andengine.util.ArrayUtils
+org.anddev.andengine.util.AsyncCallable
+org.anddev.andengine.util.Base64
+org.anddev.andengine.util.Base64$Coder
+org.anddev.andengine.util.Base64$Decoder
+org.anddev.andengine.util.Base64$Encoder
+org.anddev.andengine.util.Base64InputStream
+org.anddev.andengine.util.BetaUtils
+org.anddev.andengine.util.BetaUtils$1
+org.anddev.andengine.util.BetaUtils$2
+org.anddev.andengine.util.Callable
+org.anddev.andengine.util.Callback
+org.anddev.andengine.util.ColorUtils
+org.anddev.andengine.util.DataUtils
+org.anddev.andengine.util.Debug:
+    35:35:public static java.lang.String getDebugTag()
+    39:40:public static void setDebugTag(java.lang.String)
+    43:43:public static org.anddev.andengine.util.Debug$DebugLevel getDebugLevel()
+    47:51:public static void setDebugLevel(org.anddev.andengine.util.Debug$DebugLevel)
+    62:63:public static void v(java.lang.String)
+    66:69:public static void v(java.lang.String,java.lang.Throwable)
+    92:93:public static void w(java.lang.String)
+    96:97:public static void w(java.lang.Throwable)
+    100:107:public static void w(java.lang.String,java.lang.Throwable)
+org.anddev.andengine.util.DialogUtils
+org.anddev.andengine.util.FileUtils
+org.anddev.andengine.util.IMatcher
+org.anddev.andengine.util.Library
+org.anddev.andengine.util.ListUtils
+org.anddev.andengine.util.MathUtils:
+    44:44:public static float atan2(float,float)
+    48:48:public static final float radToDeg(float)
+    56:59:public static final int randomSign()
+    64:64:public static final float random(float,float)
+    73:73:public static final int random(int,int)
+    81:81:public static final int nextPowerOfTwo(float)
+    85:97:public static final int nextPowerOfTwo(int)
+    101:106:public static final int sum(int[])
+    110:114:public static final void arraySumInternal(int[])
+    117:121:public static final void arraySumInternal(long[])
+    124:129:public static final void arraySumInternal(long[],long)
+    140:145:public static final float arraySum(float[])
+    149:149:public static final float arrayAverage(float[])
+    169:176:public static float[] scaleAroundCenter(float[],float,float,float,float)
+    180:181:public static float[] rotateAndScaleAroundCenter(float[],float,float,float,float,float,float,float)
+    185:185:public static float[] revertScaleAroundCenter(float[],float,float,float,float)
+    193:194:public static float[] revertRotateAndScaleAroundCenter(float[],float,float,float,float,float,float,float)
+    198:198:public static int bringToBounds(int,int,int)
+    202:202:public static float bringToBounds(float,float,float)
+    206:208:public static float distance(float,float,float,float)
+org.anddev.andengine.util.MultiKey
+org.anddev.andengine.util.MultiKeyHashMap
+org.anddev.andengine.util.ProbabilityGenerator
+org.anddev.andengine.util.ProbabilityGenerator$Entry
+org.anddev.andengine.util.SAXUtils
+org.anddev.andengine.util.SimplePreferences
+org.anddev.andengine.util.SmartList:
+    private static final long serialVersionUID
+    56:61:public java.lang.Object remove(org.anddev.andengine.util.IMatcher)
+    65:72:public java.lang.Object remove(org.anddev.andengine.util.IMatcher,org.anddev.andengine.util.ParameterCallable)
+    76:83:public boolean removeAll(org.anddev.andengine.util.IMatcher)
+    91:99:public boolean removeAll(org.anddev.andengine.util.IMatcher,org.anddev.andengine.util.ParameterCallable)
+    103:107:public void clear(org.anddev.andengine.util.ParameterCallable)
+    110:116:public java.lang.Object find(org.anddev.andengine.util.IMatcher)
+    120:124:public void call(org.anddev.andengine.util.ParameterCallable)
+    127:133:public void call(org.anddev.andengine.util.IMatcher,org.anddev.andengine.util.ParameterCallable)
+org.anddev.andengine.util.SocketUtils
+org.anddev.andengine.util.StreamUtils:
+    public static final int IO_BUFFER_SIZE
+    46:51:public static final java.lang.String readFully(java.io.InputStream)
+    55:55:public static byte[] streamToBytes(java.io.InputStream)
+    59:61:public static byte[] streamToBytes(java.io.InputStream,int)
+    65:66:public static void copy(java.io.InputStream,java.io.OutputStream)
+    70:77:public static boolean copyAndClose(java.io.InputStream,java.io.OutputStream)
+    91:114:public static void copy(java.io.InputStream,java.io.OutputStream,long)
+    137:146:public static void flushCloseStream(java.io.OutputStream)
+    154:163:public static void flushCloseWriter(java.io.Writer)
+org.anddev.andengine.util.StringUtils:
+    36:47:public static java.lang.String padFront(java.lang.String,char,int)
+    73:73:public static java.lang.String[] split(java.lang.String,char)
+org.anddev.andengine.util.SystemUtils
+org.anddev.andengine.util.SystemUtils$SystemUtilsException
+org.anddev.andengine.util.TimeUtils
+org.anddev.andengine.util.Transformation:
+    73:74:public void reset()
+    97:98:public void preTranslate(float,float)
+    105:112:public org.anddev.andengine.util.Transformation setToTranslate(float,float)
+    116:117:public void preScale(float,float)
+    124:131:public org.anddev.andengine.util.Transformation setToScale(float,float)
+    135:141:public void preRotate(float)
+    153:165:public org.anddev.andengine.util.Transformation setToRotate(float)
+    189:190:public void preConcat(org.anddev.andengine.util.Transformation)
+    193:206:private void preConcat(float,float,float,float,float,float)
+org.anddev.andengine.util.TransformationPool
+org.anddev.andengine.util.TransformationPool$1
+org.anddev.andengine.util.VerticalAlign
+org.anddev.andengine.util.ViewUtils
+org.anddev.andengine.util.cache.RectangleVertexBufferCache
+org.anddev.andengine.util.constants.ColorConstants
+org.anddev.andengine.util.constants.Constants
+org.anddev.andengine.util.constants.DataConstants
+org.anddev.andengine.util.constants.MIMETypes
+org.anddev.andengine.util.constants.MathConstants
+org.anddev.andengine.util.constants.TimeConstants
+org.anddev.andengine.util.levelstats.LevelStatsDBConnector
+org.anddev.andengine.util.levelstats.LevelStatsDBConnector$1
+org.anddev.andengine.util.modifier.BaseDoubleValueSpanModifier:
+    30:31:public BaseDoubleValueSpanModifier(float,float,float,float,float)
+    34:35:public BaseDoubleValueSpanModifier(float,float,float,float,float,org.anddev.andengine.util.modifier.ease.IEaseFunction)
+    38:39:public BaseDoubleValueSpanModifier(float,float,float,float,float,org.anddev.andengine.util.modifier.IModifier$IModifierListener)
+org.anddev.andengine.util.modifier.BaseModifier:
+    59:60:public final void setRemoveWhenFinished(boolean)
+org.anddev.andengine.util.modifier.BaseSingleValueChangeModifier
+org.anddev.andengine.util.modifier.BaseSingleValueSpanModifier:
+    31:32:public BaseSingleValueSpanModifier(float,float,float)
+    35:36:public BaseSingleValueSpanModifier(float,float,float,org.anddev.andengine.util.modifier.ease.IEaseFunction)
+    39:40:public BaseSingleValueSpanModifier(float,float,float,org.anddev.andengine.util.modifier.IModifier$IModifierListener)
+org.anddev.andengine.util.modifier.BaseTripleValueSpanModifier
+org.anddev.andengine.util.modifier.IModifier:
+    public abstract void setRemoveWhenFinished(boolean)
+    public abstract float getSecondsElapsed()
+org.anddev.andengine.util.modifier.IModifier$CloneNotSupportedException:
+    private static final long serialVersionUID
+org.anddev.andengine.util.modifier.LoopModifier:
+    public static final int LOOP_CONTINUOUS
+    43:44:public LoopModifier(org.anddev.andengine.util.modifier.IModifier)
+    51:52:public LoopModifier(org.anddev.andengine.util.modifier.IModifier,int,org.anddev.andengine.util.modifier.IModifier$IModifierListener)
+    55:56:public LoopModifier(org.anddev.andengine.util.modifier.IModifier,int,org.anddev.andengine.util.modifier.LoopModifier$ILoopModifierListener)
+    84:84:public org.anddev.andengine.util.modifier.LoopModifier$ILoopModifierListener getLoopModifierListener()
+    88:89:public void setLoopModifierListener(org.anddev.andengine.util.modifier.LoopModifier$ILoopModifierListener)
+    97:97:public float getSecondsElapsed()
+org.anddev.andengine.util.modifier.ModifierList:
+    private static final long serialVersionUID
+    32:34:public ModifierList(java.lang.Object)
+    46:46:public java.lang.Object getTarget()
+    70:74:public void reset()
+org.anddev.andengine.util.modifier.ParallelModifier
+org.anddev.andengine.util.modifier.SequenceModifier:
+    38:39:public SequenceModifier(org.anddev.andengine.util.modifier.IModifier[])
+    42:43:public SequenceModifier(org.anddev.andengine.util.modifier.SequenceModifier$ISubSequenceModifierListener,org.anddev.andengine.util.modifier.IModifier[])
+    46:47:public SequenceModifier(org.anddev.andengine.util.modifier.IModifier$IModifierListener,org.anddev.andengine.util.modifier.IModifier[])
+    88:88:public org.anddev.andengine.util.modifier.SequenceModifier$ISubSequenceModifierListener getSubSequenceModifierListener()
+    92:93:public void setSubSequenceModifierListener(org.anddev.andengine.util.modifier.SequenceModifier$ISubSequenceModifierListener)
+    101:101:public float getSecondsElapsed()
+org.anddev.andengine.util.modifier.ease.EaseBackIn
+org.anddev.andengine.util.modifier.ease.EaseBackInOut
+org.anddev.andengine.util.modifier.ease.EaseBackOut
+org.anddev.andengine.util.modifier.ease.EaseBounceIn
+org.anddev.andengine.util.modifier.ease.EaseBounceInOut
+org.anddev.andengine.util.modifier.ease.EaseBounceOut
+org.anddev.andengine.util.modifier.ease.EaseCircularIn
+org.anddev.andengine.util.modifier.ease.EaseCircularInOut
+org.anddev.andengine.util.modifier.ease.EaseCircularOut
+org.anddev.andengine.util.modifier.ease.EaseCubicIn
+org.anddev.andengine.util.modifier.ease.EaseCubicInOut
+org.anddev.andengine.util.modifier.ease.EaseCubicOut
+org.anddev.andengine.util.modifier.ease.EaseElasticIn
+org.anddev.andengine.util.modifier.ease.EaseElasticInOut
+org.anddev.andengine.util.modifier.ease.EaseElasticOut
+org.anddev.andengine.util.modifier.ease.EaseExponentialIn
+org.anddev.andengine.util.modifier.ease.EaseExponentialInOut
+org.anddev.andengine.util.modifier.ease.EaseExponentialOut
+org.anddev.andengine.util.modifier.ease.EaseQuadIn
+org.anddev.andengine.util.modifier.ease.EaseQuadInOut
+org.anddev.andengine.util.modifier.ease.EaseQuadOut
+org.anddev.andengine.util.modifier.ease.EaseQuartIn
+org.anddev.andengine.util.modifier.ease.EaseQuartInOut
+org.anddev.andengine.util.modifier.ease.EaseQuartOut
+org.anddev.andengine.util.modifier.ease.EaseQuintIn
+org.anddev.andengine.util.modifier.ease.EaseQuintInOut
+org.anddev.andengine.util.modifier.ease.EaseQuintOut
+org.anddev.andengine.util.modifier.ease.EaseSineIn
+org.anddev.andengine.util.modifier.ease.EaseSineOut
+org.anddev.andengine.util.modifier.ease.EaseStrongIn
+org.anddev.andengine.util.modifier.ease.EaseStrongInOut
+org.anddev.andengine.util.modifier.ease.EaseStrongOut
+org.anddev.andengine.util.path.Direction
+org.anddev.andengine.util.path.IPathFinder
+org.anddev.andengine.util.path.ITiledMap
+org.anddev.andengine.util.path.Path
+org.anddev.andengine.util.path.Path$Step
+org.anddev.andengine.util.path.astar.AStarPathFinder
+org.anddev.andengine.util.path.astar.AStarPathFinder$Node
+org.anddev.andengine.util.path.astar.EuclideanHeuristic
+org.anddev.andengine.util.path.astar.IAStarHeuristic
+org.anddev.andengine.util.path.astar.ManhattanHeuristic
+org.anddev.andengine.util.path.astar.NullHeuristic
+org.anddev.andengine.util.pool.EntityDetachRunnablePoolItem
+org.anddev.andengine.util.pool.EntityDetachRunnablePoolUpdateHandler
+org.anddev.andengine.util.pool.GenericPool:
+    60:60:public synchronized int getUnrecycledCount()
+    135:136:public synchronized void shufflePoolItems()
+org.anddev.andengine.util.pool.MultiPool
+org.anddev.andengine.util.pool.Pool:
+    89:90:void recycle(org.anddev.andengine.util.pool.PoolItem)
+org.anddev.andengine.util.pool.PoolItem:
+    29:29:public org.anddev.andengine.util.pool.Pool getParent()
+    61:66:public void recycle()
+org.anddev.andengine.util.pool.PoolUpdateHandler:
+    42:49:public PoolUpdateHandler(int)
+    51:58:public PoolUpdateHandler(int,int)
+    96:107:public void reset()
+org.anddev.andengine.util.pool.PoolUpdateHandler$2
+org.anddev.andengine.util.pool.PoolUpdateHandler$3
+org.anddev.andengine.util.pool.RunnablePoolUpdateHandler:
+    31:32:public RunnablePoolUpdateHandler(int)
+org.anddev.andengine.util.progress.IProgressListener
+org.anddev.andengine.util.progress.ProgressCallable
+org.anddev.andengine.util.progress.ProgressMonitor
+org.anddev.andengine.util.sort.InsertionSorter
+org.anddev.andengine.util.sort.Sorter
