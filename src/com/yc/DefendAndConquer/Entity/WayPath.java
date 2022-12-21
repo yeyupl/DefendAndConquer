@@ -33,7 +33,7 @@ public class WayPath{
 			if(related[i]== aimId){
 				idList.add(related[i]);
 				this.findIdList = idList;
-				this.print(idList,"finded");
+				this.print(idList,"found");
 				return true;
 			}
 			if(this.isPass(related[i],idList)){
